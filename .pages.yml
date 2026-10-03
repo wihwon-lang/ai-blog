@@ -1,4 +1,9 @@
 content:
+  - name: topics
+    label: 자동 초안 주제 목록
+    type: file
+    path: topics.md
+    format: code
   - name: blog
     label: 블로그 글
     type: collection
