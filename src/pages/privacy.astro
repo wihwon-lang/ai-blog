@@ -1,0 +1,89 @@
+---
+// 개인정보처리방침 페이지 (애드센스 승인 필수 페이지)
+import { CONTACT_EMAIL, SITE_TITLE } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const effectiveDate = '2026년 10월 3일';
+---
+
+<BaseLayout title="개인정보처리방침" description={`${SITE_TITLE} 개인정보처리방침`}>
+	<div class="prose">
+		<h1>개인정보처리방침</h1>
+		<p>
+			{SITE_TITLE}(이하 "사이트")는 방문자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을
+			준수합니다. 이 방침은 사이트가 어떤 정보를 수집하고 어떻게 이용하는지 설명합니다.
+		</p>
+
+		<h2>1. 수집하는 정보</h2>
+		<p>
+			사이트는 회원가입, 댓글 등 방문자가 직접 개인정보를 입력하는 기능을 운영하지 않습니다. 다만 사이트 이용
+			과정에서 다음 정보가 자동으로 생성되어 수집될 수 있습니다.
+		</p>
+		<ul>
+			<li>접속 IP 주소, 브라우저 종류, 운영체제, 방문 일시, 방문 페이지 등 접속 기록</li>
+			<li>쿠키 및 유사 기술을 통해 생성되는 정보</li>
+		</ul>
+		<p>이메일로 문의하는 경우, 답변을 위해 보내신 이메일 주소와 문의 내용을 보관합니다.</p>
+
+		<h2>2. 정보의 이용 목적</h2>
+		<ul>
+			<li>사이트 운영 및 서비스 품질 개선</li>
+			<li>방문 통계 분석</li>
+			<li>맞춤형 광고 제공</li>
+			<li>문의에 대한 답변</li>
+		</ul>
+
+		<h2>3. 광고 및 쿠키</h2>
+		<p>
+			사이트는 Google AdSense 등 제3자 광고 서비스를 사용할 수 있습니다. Google을 포함한 제3자 공급업체는
+			쿠키를 사용하여 방문자의 이 사이트 또는 다른 사이트 방문 기록을 바탕으로 광고를 게재합니다.
+		</p>
+		<ul>
+			<li>
+				Google은 광고 쿠키를 사용하여 사이트 방문자에게 이 사이트 및 인터넷의 다른 사이트 방문 기록을 바탕으로
+				광고를 게재할 수 있습니다.
+			</li>
+			<li>
+				방문자는 <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google 광고 설정</a>에서
+				맞춤 광고를 사용 중지할 수 있습니다.
+			</li>
+			<li>
+				제3자 공급업체의 맞춤 광고용 쿠키는
+				<a href="https://www.aboutads.info/choices" target="_blank" rel="noopener">www.aboutads.info</a>에서
+				사용 중지할 수 있습니다.
+			</li>
+		</ul>
+		<p>
+			자세한 내용은
+			<a href="https://policies.google.com/technologies/ads?hl=ko" target="_blank" rel="noopener"
+				>Google 광고 정책</a
+			>에서 확인할 수 있습니다. 방문자는 브라우저 설정에서 쿠키 저장을 거부할 수 있으나, 이 경우 일부 기능
+			이용에 제한이 있을 수 있습니다.
+		</p>
+
+		<h2>4. 정보의 보관 및 파기</h2>
+		<p>
+			자동 수집 정보는 각 서비스 제공자(호스팅, 광고, 통계)의 정책에 따라 보관·파기됩니다. 문의 이메일은 답변
+			완료 후 1년이 지나면 삭제합니다.
+		</p>
+
+		<h2>5. 제3자 제공</h2>
+		<p>사이트는 법령에 따른 요청이 있는 경우를 제외하고, 방문자의 개인정보를 제3자에게 제공하지 않습니다.</p>
+
+		<h2>6. 외부 링크</h2>
+		<p>
+			사이트에 포함된 외부 링크로 이동한 경우, 해당 사이트의 개인정보 처리에 대해서는 이 방침이 적용되지
+			않습니다.
+		</p>
+
+		<h2>7. 문의처</h2>
+		<p>
+			개인정보 관련 문의는
+			{CONTACT_EMAIL ? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> : <a href="/contact">문의 페이지</a>}
+			로 연락해 주세요.
+		</p>
+
+		<h2>8. 방침 변경</h2>
+		<p>이 방침은 {effectiveDate}부터 적용됩니다. 내용이 바뀌면 이 페이지를 통해 알립니다.</p>
+	</div>
+</BaseLayout>

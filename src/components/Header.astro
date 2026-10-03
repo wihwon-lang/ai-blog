@@ -1,0 +1,74 @@
+---
+import { CATEGORIES, SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href="/blog">전체 글</HeaderLink>
+			{CATEGORIES.map((c) => <HeaderLink href={`/category/${c.slug}`}>{c.name}</HeaderLink>)}
+			<HeaderLink href="/about">소개</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: white;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	h2 {
+		margin: 0;
+		font-size: 1.15em;
+		white-space: nowrap;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1em;
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+	.internal-links {
+		display: flex;
+		overflow-x: auto;
+		scrollbar-width: none;
+	}
+	nav a {
+		padding: 1em 0.6em;
+		color: rgb(var(--black));
+		border-bottom: 3px solid transparent;
+		text-decoration: none;
+		font-size: 0.9em;
+		white-space: nowrap;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+	}
+	@media (max-width: 960px) {
+		nav {
+			flex-direction: column;
+			align-items: stretch;
+			gap: 0;
+		}
+		h2 {
+			padding-top: 0.8em;
+		}
+		h2 a {
+			padding: 0;
+		}
+		nav a {
+			padding: 0.7em 0.6em;
+		}
+	}
+</style>

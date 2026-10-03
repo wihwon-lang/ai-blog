@@ -1,0 +1,23 @@
+---
+// 문의 페이지 (애드센스 승인 필수 페이지)
+import { CONTACT_EMAIL, SITE_TITLE } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="문의" description={`${SITE_TITLE} 문의 안내`}>
+	<div class="prose">
+		<h1>문의</h1>
+		<p>글 내용 정정, 제휴·협업, AI 영상 제작 의뢰 등 문의는 아래 이메일로 보내 주세요.</p>
+		<p class="email">
+			{CONTACT_EMAIL ? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> : '이메일 주소 준비 중'}
+		</p>
+		<p>보통 2~3일 안에 답변드립니다. 광고성 메일과 스팸에는 답변하지 않습니다.</p>
+	</div>
+</BaseLayout>
+
+<style>
+	.email {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+</style>

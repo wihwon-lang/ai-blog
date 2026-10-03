@@ -1,0 +1,13 @@
+---
+import PostList from '../../components/PostList.astro';
+import { SITE_DESCRIPTION } from '../../consts';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedPosts } from '../../lib/posts';
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout title="전체 글" description={SITE_DESCRIPTION}>
+	<h1>전체 글</h1>
+	<PostList posts={posts} />
+</BaseLayout>

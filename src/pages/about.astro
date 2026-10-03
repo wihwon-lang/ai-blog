@@ -1,0 +1,44 @@
+---
+import { CATEGORIES, SITE_TITLE } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="소개" description={`${SITE_TITLE}는 생성형 AI를 실무에 쓰는 방법을 직접 써보고 정리하는 블로그입니다.`}>
+	<div class="prose">
+		<h1>{SITE_TITLE} 소개</h1>
+
+		<p>
+			{SITE_TITLE}는 AI 영상, 이미지, 음악, 업무 자동화 도구를 실제 작업에 써보고, 그 과정과 결과를 정리하는
+			블로그입니다.
+		</p>
+
+		<h2>운영자</h2>
+		<p>
+			AI 영상 제작과 마케팅 콘텐츠를 만드는 실무자입니다. 부동산 분양 홍보 영상, 광고 소재, 숏폼 콘텐츠를
+			생성형 AI로 제작하면서 실제로 결제하고 사용하는 도구들을 기준으로 글을 씁니다.
+		</p>
+
+		<h2>이런 글을 씁니다</h2>
+		<ul>
+			{
+				CATEGORIES.map((c) => (
+					<li>
+						<a href={`/category/${c.slug}`}>{c.name}</a> — {c.description}
+					</li>
+				))
+			}
+		</ul>
+
+		<h2>글 작성 원칙</h2>
+		<ul>
+			<li>직접 써본 도구와 직접 만든 결과물을 기준으로 씁니다.</li>
+			<li>요금제와 기능은 작성 시점 기준이며, 바뀐 내용은 확인되는 대로 수정합니다.</li>
+			<li>
+				초안 작성과 자료 정리에 AI를 활용하지만, 사용 경험과 의견은 운영자가 직접 작성하고 검토한 뒤
+				발행합니다.
+			</li>
+		</ul>
+
+		<p>제휴, 제작 의뢰, 정정 요청은 <a href="/contact">문의 페이지</a>를 이용해 주세요.</p>
+	</div>
+</BaseLayout>

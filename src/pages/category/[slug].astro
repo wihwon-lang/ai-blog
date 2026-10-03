@@ -1,0 +1,26 @@
+---
+// 카테고리별 글 목록 페이지
+import PostList from '../../components/PostList.astro';
+import { CATEGORIES } from '../../consts';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedPosts } from '../../lib/posts';
+
+export function getStaticPaths() {
+	return CATEGORIES.map((c) => ({ params: { slug: c.slug }, props: { category: c } }));
+}
+
+const { category } = Astro.props;
+const posts = (await getPublishedPosts()).filter((p) => p.data.category === category.slug);
+---
+
+<BaseLayout title={category.name} description={category.description}>
+	<h1>{category.name}</h1>
+	<p class="lead">{category.description}</p>
+	<PostList posts={posts} />
+</BaseLayout>
+
+<style>
+	.lead {
+		color: rgb(var(--gray));
+	}
+</style>

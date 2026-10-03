@@ -1,0 +1,88 @@
+---
+import PostList from '../components/PostList.astro';
+import { CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPublishedPosts } from '../lib/posts';
+
+const posts = (await getPublishedPosts()).slice(0, 10);
+---
+
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+	<section class="intro">
+		<h1>{SITE_TITLE}</h1>
+		<p>{SITE_DESCRIPTION}</p>
+	</section>
+
+	<section class="categories">
+		{
+			CATEGORIES.map((c) => (
+				<a href={`/category/${c.slug}`}>
+					<strong>{c.name}</strong>
+					<span>{c.description}</span>
+				</a>
+			))
+		}
+	</section>
+
+	<section>
+		<h2>최신 글</h2>
+		<PostList posts={posts} />
+		<p class="more"><a href="/blog">전체 글 보기 →</a></p>
+	</section>
+</BaseLayout>
+
+<style>
+	.intro h1 {
+		margin-bottom: 0.3em;
+	}
+	.intro p {
+		color: rgb(var(--gray));
+	}
+	.categories {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+		gap: 0.8em;
+		margin: 2em 0 1em;
+	}
+	.categories a {
+		display: flex;
+		flex-direction: column;
+		padding: 1em 1.1em;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 10px;
+		text-decoration: none;
+		color: inherit;
+		transition:
+			border-color 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+	.categories a:hover {
+		border-color: var(--accent);
+		box-shadow: var(--box-shadow);
+	}
+	.categories strong {
+		color: rgb(var(--black));
+	}
+	.categories span {
+		font-size: 0.8em;
+		color: rgb(var(--gray));
+		line-height: 1.6;
+	}
+	@media (max-width: 720px) {
+		.categories {
+			grid-template-columns: 1fr 1fr;
+			gap: 0.5em;
+		}
+		.categories a {
+			padding: 0.6em 0.8em;
+			font-size: 0.9em;
+		}
+		.categories span {
+			display: none;
+		}
+	}
+	.more {
+		margin-top: 1.5em;
+		text-align: right;
+	}
+</style>
