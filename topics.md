@@ -4,7 +4,7 @@
 
 형식: `- [ ] 주제 (카테고리)`
 
-- [ ] 런웨이 Gen-4.5 사용법 총정리 — 가입부터 첫 영상까지 (ai-video)
+- [x] 런웨이 Gen-4.5 사용법 총정리 — 가입부터 첫 영상까지 (ai-video) → runway-gen45-guide.md
 - [ ] 구글 Veo 3.1과 Flow 사용법 — Gemini 구독으로 AI 영상 만들기 (ai-video)
 - [ ] Suno로 AI 배경음악 만들기 — 숏폼·광고용 음악 상업 이용까지 (ai-audio)
 - [ ] 미드저니 vs 나노바나나 비교 — 어떤 이미지 도구를 쓸까 (ai-image)
