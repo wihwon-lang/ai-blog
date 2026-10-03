@@ -18,4 +18,5 @@
 - **하위 경로 배포**: 도메인 연결 전에는 `https://wihwon-lang.github.io/ai-blog/`. 내부 링크는 모두 `src/lib/url.ts`의 `url()`로 감싸 base 경로를 붙인다. 새 링크를 만들 때도 `url()`을 써야 한다. 도메인 연결 시 `astro.config.mjs`에서 site를 도메인으로, base 줄 삭제, `public/CNAME` 추가.
 - **편집 방식 (사용자 요청)**: 사용자는 사이트에 임시저장된 글을 직접 마지막 수정하고 발행하길 원함. Pages CMS(app.pagescms.org, GitHub 로그인)로 해결. `.pages.yml`에서 `draft` 기본값 true, 본문은 rich-text(markdown). WYSIWYG에서 표가 깨지면 편집기의 Source 모드로 고치도록 안내.
 - **글 스타일 (사용자 요청)**: 비교·목록 정보는 표로 ("구글은 표를 좋아해"). 이미지는 필수 아님 → 캡처 요청 칸은 넣지 않는다.
+- **로컬과 GitHub 동기화**: 사용자가 Pages CMS로 고치면 GitHub에 바로 커밋된다. 로컬에서 작업하기 전에 반드시 `git pull`부터 한다.
 - **draft 필드**: `draft: true`인 글은 목록·상세·RSS 모두에서 제외. 사용자 경험을 아직 안 넣은 초안은 draft로 둔다.

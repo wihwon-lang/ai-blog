@@ -19,8 +19,8 @@
 - [x] GitHub Actions 배포 워크플로
 - [x] `astro.config.mjs`의 `site`/`base`를 GitHub Pages 주소로 변경
 - [x] 문의 페이지 이메일 확정
-- [ ] 저장소 Settings → Pages → Source를 "GitHub Actions"로 (사용자)
-- [ ] 첫 배포 성공 확인 (https://wihwon-lang.github.io/ai-blog/)
+- [x] 저장소 Settings → Pages → Source를 "GitHub Actions"로 (사용자)
+- [x] 첫 배포 성공 확인 (https://wihwon-lang.github.io/ai-blog/)
 - [x] Pages CMS 설정 (`.pages.yml`)
 - [ ] Pages CMS에 ai-blog 저장소 접근 허용 + 편집 화면 확인 (사용자)
 
