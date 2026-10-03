@@ -3,6 +3,9 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  # 예약발행: 매일 한국시간 08:00에 다시 빌드해서 발행일이 된 글을 공개 (GitHub 사정으로 수십 분 늦을 수 있음)
+  schedule:
+    - cron: '0 23 * * *'
 
 permissions:
   contents: read

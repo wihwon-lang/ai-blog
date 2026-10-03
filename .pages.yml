@@ -40,12 +40,12 @@ content:
             - name: ai-side-income
               label: AI 부업·수익화
       - name: pubDate
-        label: 발행일
+        label: 발행일 (미래 날짜면 그날 아침 8시쯤 자동 공개)
         type: date
         options:
           format: yyyy-MM-dd
       - name: draft
-        label: 임시저장 (체크하면 사이트에 안 보임)
+        label: 임시저장 (체크하면 사이트에 안 보임, 끄면 발행일에 공개)
         type: boolean
         default: true
       - name: body
