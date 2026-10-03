@@ -15,4 +15,7 @@
 - **헤더 메뉴**: 메뉴가 7개라 960px 이하에서는 제목 아래 한 줄 가로 스크롤로 배치. 720~960px에서 메뉴가 밀려 안 보이던 문제를 이렇게 해결.
 - **관련 도구**: `C:\Users\wchwo\blog-writer`에 네이버 블로그 자동 작성기(Claude Agent SDK + Playwright)가 이미 있음. 이 블로그 글 초안 생성에 재활용할 수 있음 (마크다운 파일로 출력만 하면 됨).
 - **클링 요금 출처**: 공식 요금제 페이지는 로그인해야 보여서 확인 못 함. 요금표는 2026년 기준 3rd-party 정리글 여러 개(eesel.ai, magichour.ai 등)에서 일치하는 값 사용. 무료 크레딧 지급 주기(매일 vs 매월)는 출처마다 달라 사용자 계정으로 확인하도록 초안에 표시. 공식 홈페이지에서 Kling 4.0, Kling Image 3.0이 최신임은 확인(2026-10-03).
+- **하위 경로 배포**: 도메인 연결 전에는 `https://wihwon-lang.github.io/ai-blog/`. 내부 링크는 모두 `src/lib/url.ts`의 `url()`로 감싸 base 경로를 붙인다. 새 링크를 만들 때도 `url()`을 써야 한다. 도메인 연결 시 `astro.config.mjs`에서 site를 도메인으로, base 줄 삭제, `public/CNAME` 추가.
+- **편집 방식 (사용자 요청)**: 사용자는 사이트에 임시저장된 글을 직접 마지막 수정하고 발행하길 원함. Pages CMS(app.pagescms.org, GitHub 로그인)로 해결. `.pages.yml`에서 `draft` 기본값 true, 본문은 rich-text(markdown). WYSIWYG에서 표가 깨지면 편집기의 Source 모드로 고치도록 안내.
+- **글 스타일 (사용자 요청)**: 비교·목록 정보는 표로 ("구글은 표를 좋아해"). 이미지는 필수 아님 → 캡처 요청 칸은 넣지 않는다.
 - **draft 필드**: `draft: true`인 글은 목록·상세·RSS 모두에서 제외. 사용자 경험을 아직 안 넣은 초안은 draft로 둔다.

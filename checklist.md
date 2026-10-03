@@ -15,10 +15,14 @@
 - [x] 문의 이메일 (`CONTACT_EMAIL`) 확정
 
 ## 2단계 배포
-- [ ] GitHub 저장소 생성 (사용자)
-- [ ] GitHub Actions 배포 워크플로
-- [ ] `astro.config.mjs`의 `site`를 실제 주소로 변경
-- [ ] 문의 페이지 이메일 확정
+- [x] GitHub 저장소 생성 (사용자) — wihwon-lang/ai-blog, Public
+- [x] GitHub Actions 배포 워크플로
+- [x] `astro.config.mjs`의 `site`/`base`를 GitHub Pages 주소로 변경
+- [x] 문의 페이지 이메일 확정
+- [ ] 저장소 Settings → Pages → Source를 "GitHub Actions"로 (사용자)
+- [ ] 첫 배포 성공 확인 (https://wihwon-lang.github.io/ai-blog/)
+- [x] Pages CMS 설정 (`.pages.yml`)
+- [ ] Pages CMS에 ai-blog 저장소 접근 허용 + 편집 화면 확인 (사용자)
 
 ## 3단계 글 쌓기
 - [ ] 첫 글 10개 초안 (사용자 경험 추가 자리 표시)
