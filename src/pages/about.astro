@@ -1,4 +1,5 @@
 ---
+import { url } from '../lib/url';
 import { CATEGORIES, SITE_TITLE } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
@@ -23,7 +24,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 			{
 				CATEGORIES.map((c) => (
 					<li>
-						<a href={`/category/${c.slug}`}>{c.name}</a> — {c.description}
+						<a href={url(`/category/${c.slug}`)}>{c.name}</a> — {c.description}
 					</li>
 				))
 			}
@@ -39,6 +40,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 			</li>
 		</ul>
 
-		<p>제휴, 제작 의뢰, 정정 요청은 <a href="/contact">문의 페이지</a>를 이용해 주세요.</p>
+		<p>제휴, 제작 의뢰, 정정 요청은 <a href={url('/contact')}>문의 페이지</a>를 이용해 주세요.</p>
 	</div>
 </BaseLayout>

@@ -2,6 +2,7 @@
 // 개인정보처리방침 페이지 (애드센스 승인 필수 페이지)
 import { CONTACT_EMAIL, SITE_TITLE } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/url';
 
 const effectiveDate = '2026년 10월 3일';
 ---
@@ -79,7 +80,7 @@ const effectiveDate = '2026년 10월 3일';
 		<h2>7. 문의처</h2>
 		<p>
 			개인정보 관련 문의는
-			{CONTACT_EMAIL ? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> : <a href="/contact">문의 페이지</a>}
+			{CONTACT_EMAIL ? <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> : <a href={url('/contact')}>문의 페이지</a>}
 			로 연락해 주세요.
 		</p>
 

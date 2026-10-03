@@ -3,6 +3,7 @@
 import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import { getCategory } from '../consts';
+import { url } from '../lib/url';
 import FormattedDate from './FormattedDate.astro';
 
 interface Props {
@@ -19,7 +20,7 @@ const { posts } = Astro.props;
 		<ul>
 			{posts.map((post) => (
 				<li>
-					<a href={`/blog/${post.id}/`}>
+					<a href={url(`/blog/${post.id}/`)}>
 						{post.data.heroImage && (
 							<Image width={720} height={405} src={post.data.heroImage} alt="" />
 						)}

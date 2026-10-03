@@ -1,0 +1,56 @@
+content:
+  - name: blog
+    label: 블로그 글
+    type: collection
+    path: src/content/blog
+    format: yaml-frontmatter
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      fields: [title, category, draft, pubDate]
+      primary: title
+      sort: [pubDate, title]
+      default:
+        sort: pubDate
+        order: desc
+    fields:
+      - name: title
+        label: 제목
+        type: string
+        required: true
+      - name: description
+        label: 요약 (검색 결과에 보이는 설명)
+        type: text
+        required: true
+      - name: category
+        label: 카테고리
+        type: select
+        required: true
+        options:
+          values:
+            - name: ai-video
+              label: AI 영상
+            - name: ai-image
+              label: AI 이미지
+            - name: ai-audio
+              label: AI 음악·음성
+            - name: ai-automation
+              label: AI 업무 자동화
+            - name: ai-side-income
+              label: AI 부업·수익화
+      - name: pubDate
+        label: 발행일
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: draft
+        label: 임시저장 (체크하면 사이트에 안 보임)
+        type: boolean
+        default: true
+      - name: body
+        label: 본문
+        type: rich-text
+        options:
+          format: markdown
+          media: false

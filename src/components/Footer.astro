@@ -1,4 +1,5 @@
 ---
+import { url } from '../lib/url';
 import { SITE_TITLE } from '../consts';
 
 const today = new Date();
@@ -6,9 +7,9 @@ const today = new Date();
 
 <footer>
 	<div class="links">
-		<a href="/about">소개</a>
-		<a href="/privacy">개인정보처리방침</a>
-		<a href="/contact">문의</a>
+		<a href={url('/about')}>소개</a>
+		<a href={url('/privacy')}>개인정보처리방침</a>
+		<a href={url('/contact')}>문의</a>
 	</div>
 	&copy; {today.getFullYear()} {SITE_TITLE}. All rights reserved.
 </footer>

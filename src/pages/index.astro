@@ -1,4 +1,5 @@
 ---
+import { url } from '../lib/url';
 import PostList from '../components/PostList.astro';
 import { CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -16,7 +17,7 @@ const posts = (await getPublishedPosts()).slice(0, 10);
 	<section class="categories">
 		{
 			CATEGORIES.map((c) => (
-				<a href={`/category/${c.slug}`}>
+				<a href={url(`/category/${c.slug}`)}>
 					<strong>{c.name}</strong>
 					<span>{c.description}</span>
 				</a>
@@ -27,7 +28,7 @@ const posts = (await getPublishedPosts()).slice(0, 10);
 	<section>
 		<h2>최신 글</h2>
 		<PostList posts={posts} />
-		<p class="more"><a href="/blog">전체 글 보기 →</a></p>
+		<p class="more"><a href={url('/blog')}>전체 글 보기 →</a></p>
 	</section>
 </BaseLayout>
 

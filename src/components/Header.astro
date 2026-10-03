@@ -1,15 +1,16 @@
 ---
+import { url } from '../lib/url';
 import { CATEGORIES, SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={url('/')}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/blog">전체 글</HeaderLink>
-			{CATEGORIES.map((c) => <HeaderLink href={`/category/${c.slug}`}>{c.name}</HeaderLink>)}
-			<HeaderLink href="/about">소개</HeaderLink>
+			<HeaderLink href={url('/blog')}>전체 글</HeaderLink>
+			{CATEGORIES.map((c) => <HeaderLink href={url(`/category/${c.slug}`)}>{c.name}</HeaderLink>)}
+			<HeaderLink href={url('/about')}>소개</HeaderLink>
 		</div>
 	</nav>
 </header>
