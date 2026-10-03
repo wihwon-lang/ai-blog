@@ -121,6 +121,11 @@ pre {
 	padding: 1.5em;
 	border-radius: 8px;
 	overflow-x: auto;
+	white-space: pre-wrap;
+	/* 코드 블록은 주로 한글 프롬프트 예시라 본문 글꼴 사용 */
+	font-family: inherit;
+	font-size: 0.92em;
+	line-height: 1.7;
 }
 pre > code {
 	all: unset;
