@@ -20,4 +20,5 @@
 - **글 스타일 (사용자 요청)**: 비교·목록 정보는 표로 ("구글은 표를 좋아해"). 이미지는 필수 아님 → 캡처 요청 칸은 넣지 않는다.
 - **로컬과 GitHub 동기화**: 사용자가 Pages CMS로 고치면 GitHub에 바로 커밋된다. 로컬에서 작업하기 전에 반드시 `git pull`부터 한다.
 - **예약발행 (사용자 요청)**: 공개 조건은 `draft: false` + 발행일(한국 날짜) ≤ 빌드한 날. GitHub Actions가 매일 08:00 KST(cron `0 23 * * *` UTC)에 다시 빌드해서 날짜가 된 글을 공개. GitHub 스케줄은 수십 분 늦을 수 있고, 저장소에 60일간 활동이 없으면 스케줄이 멈춘다. 전부 자동 작성·발행은 승인 리스크 때문에 하지 않기로 함.
+- **자동 초안 (사용자 요청)**: 클라우드 루틴 "AI 작업실 자동 초안"(trig_018oLk2CiNShkEjAv9W2vKkn, https://claude.ai/code/routines/trig_018oLk2CiNShkEjAv9W2vKkn). 매일 06:00 KST(cron `0 21 * * *` UTC), Opus 5.5. `topics.md` 맨 위 미체크 주제로 `WRITING_GUIDE.md` 규칙대로 draft 1개를 써서 main에 push. 발행은 하지 않음. 자동으로 붙은 MCP 연결(Gmail, 메타 광고 등)은 불필요해서 제거함. 규칙을 바꾸려면 WRITING_GUIDE.md를, 주제는 topics.md(CMS에서도 편집 가능)를 고친다.
 - **draft 필드**: `draft: true`인 글은 목록·상세·RSS 모두에서 제외. 사용자 경험을 아직 안 넣은 초안은 draft로 둔다.
