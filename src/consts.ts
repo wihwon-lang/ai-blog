@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
 	'AI 영상, 이미지, 음악, 업무 자동화까지 생성형 AI를 실무에 쓰는 방법을 직접 써보고 정리합니다.';
 
 // 문의 페이지·개인정보처리방침에 노출되는 연락처. 비어 있으면 "준비 중"으로 표시된다.
-export const CONTACT_EMAIL = '';
+export const CONTACT_EMAIL = 'wihwon@gmail.com';
 
 // 애드센스 승인 신청 시 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 스크립트를 넣지 않는다.
 export const ADSENSE_CLIENT = '';
