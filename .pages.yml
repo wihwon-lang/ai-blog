@@ -45,7 +45,7 @@ content:
             - name: ai-side-income
               label: AI 부업·수익화
       - name: pubDate
-        label: 발행일 (미래 날짜면 그날 아침 8시쯤 자동 공개)
+        label: 발행일 (미래 날짜면 그날 오전 11시쯤 자동 공개)
         type: date
         options:
           format: yyyy-MM-dd
