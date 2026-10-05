@@ -9,7 +9,7 @@
 - [x] Suno로 AI 배경음악 만들기 — 숏폼·광고용 음악 상업 이용까지 (ai-audio) → suno-ai-background-music.md (발행일 2026-10-05)
 - [x] 미드저니 vs 나노바나나 비교 — 어떤 이미지 도구를 쓸까 (ai-image) → midjourney-vs-nano-banana.md (발행일 2026-10-05)
 - [x] AI 영상 립싱크 — 이미지 속 인물이 말하게 만드는 법 (ai-video) → ai-lip-sync-talking-photo.md (발행일 2026-10-06)
-- [ ] Claude로 블로그 글 초안 쓰는 법 — 프롬프트와 검수 요령 (ai-automation)
+- [x] Claude로 블로그 글 초안 쓰는 법 — 프롬프트와 검수 요령 (ai-automation) → claude-blog-draft-writing.md (발행일 2026-10-06)
 - [ ] AI 영상 외주 단가는 얼마일까 — 견적 내는 법과 작업 범위 정하기 (ai-side-income)
 - [ ] AI 이미지 프롬프트 기본 공식 — 구도·조명·스타일 용어 정리 (ai-image)
 - [ ] 클링 시작·끝 프레임으로 변신 영상 만들기 (ai-video)
