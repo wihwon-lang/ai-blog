@@ -11,7 +11,7 @@
 - [x] AI 영상 립싱크 — 이미지 속 인물이 말하게 만드는 법 (ai-video) → ai-lip-sync-talking-photo.md (발행일 2026-10-06)
 - [x] Claude로 블로그 글 초안 쓰는 법 — 프롬프트와 검수 요령 (ai-automation) → claude-blog-draft-writing.md (발행일 2026-10-06)
 - [x] AI 영상 외주 단가는 얼마일까 — 견적 내는 법과 작업 범위 정하기 (ai-side-income) → ai-video-freelance-pricing.md (발행일 2026-10-07)
-- [ ] AI 이미지 프롬프트 기본 공식 — 구도·조명·스타일 용어 정리 (ai-image)
+- [x] AI 이미지 프롬프트 기본 공식 — 구도·조명·스타일 용어 정리 (ai-image) → ai-image-prompt-formula.md (발행일 2026-10-07)
 - [ ] 클링 시작·끝 프레임으로 변신 영상 만들기 (ai-video)
 - [ ] AI로 상품 상세페이지 이미지 만들기 — 스마트스토어·쿠팡용 (ai-side-income)
 - [ ] ElevenLabs 등 AI 음성(TTS) 서비스 비교 — 한국어 자연스러움 기준 (ai-audio)
