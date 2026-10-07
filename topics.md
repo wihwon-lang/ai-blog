@@ -13,7 +13,7 @@
 - [x] AI 영상 외주 단가는 얼마일까 — 견적 내는 법과 작업 범위 정하기 (ai-side-income) → ai-video-freelance-pricing.md (발행일 2026-10-07)
 - [x] AI 이미지 프롬프트 기본 공식 — 구도·조명·스타일 용어 정리 (ai-image) → ai-image-prompt-formula.md (발행일 2026-10-07)
 - [x] 클링 시작·끝 프레임으로 변신 영상 만들기 (ai-video) → kling-start-end-frame-transformation.md (발행일 2026-10-08)
-- [ ] AI로 상품 상세페이지 이미지 만들기 — 스마트스토어·쿠팡용 (ai-side-income)
+- [x] AI로 상품 상세페이지 이미지 만들기 — 스마트스토어·쿠팡용 (ai-side-income) → ai-product-detail-page-images.md (발행일 2026-10-08)
 - [ ] ElevenLabs 등 AI 음성(TTS) 서비스 비교 — 한국어 자연스러움 기준 (ai-audio)
 - [ ] ChatGPT로 엑셀·구글시트 업무 자동화하기 (ai-automation)
 - [ ] AI 영상 해상도 높이기 — 업스케일 도구 비교 (ai-video)
