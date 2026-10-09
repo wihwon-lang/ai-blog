@@ -1,6 +1,6 @@
 // 사이트 이름·설명·카테고리·애드센스 ID 등 전역 설정값
 
-export const SITE_TITLE = 'AI 작업실';
+export const SITE_TITLE = 'AI꿀';
 export const SITE_DESCRIPTION =
 	'AI 영상, 이미지, 음악, 업무 자동화까지 생성형 AI를 실무에 쓰는 방법을 직접 써보고 정리합니다.';
 
