@@ -18,7 +18,7 @@
 - [x] ChatGPT로 엑셀·구글시트 업무 자동화하기 (ai-automation) → chatgpt-excel-google-sheets-automation.md (발행일 2026-10-09)
 - [x] AI 영상 해상도 높이기 — 업스케일 도구 비교 (ai-video) → ai-video-upscale-tools.md (발행일 2026-10-10)
 - [x] AI 이미지 배경 제거·합성 — 제품 사진 쉽게 만드는 법 (ai-image) → ai-background-removal-product-photo.md (발행일 2026-10-10)
-- [ ] 유튜브 쇼츠 AI 콘텐츠 정책 — AI 표시 라벨과 수익 창출 조건 (ai-side-income)
+- [x] 유튜브 쇼츠 AI 콘텐츠 정책 — AI 표시 라벨과 수익 창출 조건 (ai-side-income) → youtube-shorts-ai-content-policy.md (발행일 2026-10-11)
 - [ ] AI 영상 9:16 숏폼 vs 16:9 가로 영상 — 비율별 제작 요령 (ai-video)
 - [ ] AI로 카드뉴스 만들기 — 기획부터 디자인까지 (ai-automation)
 - [ ] AI 영상으로 인스타 릴스 운영하기 — 주제 정하기와 업로드 루틴 (ai-side-income)
