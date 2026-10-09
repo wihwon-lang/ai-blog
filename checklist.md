@@ -42,8 +42,8 @@
 ## 4단계 도메인·승인
 - [x] 도메인 구매 (사용자) — aikkul.com, 가비아, 2026-10-09
 - [x] `astro.config.mjs` site를 aikkul.com으로, base 제거, `public/CNAME` 추가
-- [ ] 가비아 DNS 설정 (사용자)
-- [ ] 저장소 Settings → Pages → Custom domain 입력 (사용자) 후 push
+- [x] 가비아 DNS 설정 (사용자)
+- [x] 저장소 Settings → Pages → Custom domain 입력 (사용자) 후 push — 2026-10-09 aikkul.com 접속 확인
 - [ ] HTTPS 강제 켜기 + aikkul.com 접속 확인
 - [ ] 구글 서치 콘솔 등록, 사이트맵 제출
 - [ ] 애드센스 신청 → `ADSENSE_CLIENT` 입력 + `public/ads.txt`
