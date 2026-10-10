@@ -19,7 +19,7 @@
 - [x] AI 영상 해상도 높이기 — 업스케일 도구 비교 (ai-video) → ai-video-upscale-tools.md (발행일 2026-10-10)
 - [x] AI 이미지 배경 제거·합성 — 제품 사진 쉽게 만드는 법 (ai-image) → ai-background-removal-product-photo.md (발행일 2026-10-10)
 - [x] 유튜브 쇼츠 AI 콘텐츠 정책 — AI 표시 라벨과 수익 창출 조건 (ai-side-income) → youtube-shorts-ai-content-policy.md (발행일 2026-10-11)
-- [ ] AI 영상 9:16 숏폼 vs 16:9 가로 영상 — 비율별 제작 요령 (ai-video)
+- [x] AI 영상 9:16 숏폼 vs 16:9 가로 영상 — 비율별 제작 요령 (ai-video) → ai-video-vertical-vs-horizontal-ratio.md (발행일 2026-10-12)
 - [ ] AI로 카드뉴스 만들기 — 기획부터 디자인까지 (ai-automation)
 - [ ] AI 영상으로 인스타 릴스 운영하기 — 주제 정하기와 업로드 루틴 (ai-side-income)
 - [ ] 나노바나나로 사진 보정·편집하기 — 대화로 고치는 법 (ai-image)
