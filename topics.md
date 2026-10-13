@@ -22,5 +22,5 @@
 - [x] AI 영상 9:16 숏폼 vs 16:9 가로 영상 — 비율별 제작 요령 (ai-video) → ai-video-vertical-vs-horizontal-ratio.md (발행일 2026-10-12)
 - [x] AI로 카드뉴스 만들기 — 기획부터 디자인까지 (ai-automation) → ai-card-news-guide.md (발행일 2026-10-13)
 - [x] AI 영상으로 인스타 릴스 운영하기 — 주제 정하기와 업로드 루틴 (ai-side-income) → instagram-reels-ai-video-routine.md (발행일 2026-10-14)
-- [ ] 나노바나나로 사진 보정·편집하기 — 대화로 고치는 법 (ai-image)
+- [x] 나노바나나로 사진 보정·편집하기 — 대화로 고치는 법 (ai-image) → nano-banana-photo-editing-guide.md (발행일 2026-10-15)
 - [ ] AI 영상 실패 사례 모음 — 손가락, 얼굴 변형, 글자 깨짐 해결법 (ai-video)
