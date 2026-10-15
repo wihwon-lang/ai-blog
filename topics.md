@@ -24,3 +24,4 @@
 - [x] AI 영상으로 인스타 릴스 운영하기 — 주제 정하기와 업로드 루틴 (ai-side-income) → instagram-reels-ai-video-routine.md (발행일 2026-10-14)
 - [x] 나노바나나로 사진 보정·편집하기 — 대화로 고치는 법 (ai-image) → nano-banana-photo-editing-guide.md (발행일 2026-10-15)
 - [x] AI 영상 실패 사례 모음 — 손가락, 얼굴 변형, 글자 깨짐 해결법 (ai-video) → ai-video-common-failures-fix.md (발행일 2026-10-16)
+- [x] AI 회의록 자동 정리 — 클로바노트·ChatGPT 기록·구글 미트 노트 비교 (ai-automation) → ai-meeting-notes-transcription.md (발행일 2026-10-17)
