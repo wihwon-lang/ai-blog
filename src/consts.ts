@@ -8,7 +8,7 @@ export const SITE_DESCRIPTION =
 export const CONTACT_EMAIL = 'wihwon@gmail.com';
 
 // 애드센스 승인 신청 시 'ca-pub-XXXXXXXXXXXXXXXX' 입력. 비어 있으면 광고 스크립트를 넣지 않는다.
-export const ADSENSE_CLIENT = '';
+export const ADSENSE_CLIENT = 'ca-pub-7324598425987974';
 
 export const CATEGORIES = [
 	{ slug: 'ai-video', name: 'AI 영상', description: '클링, Seedance, 런웨이 등 AI 영상 생성 도구 사용법과 비교' },

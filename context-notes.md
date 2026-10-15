@@ -25,3 +25,4 @@
 - **draft 필드**: `draft: true`인 글은 목록·상세·RSS 모두에서 제외. 사용자 경험을 아직 안 넣은 초안은 draft로 둔다.
 - **도메인 aikkul.com (2026-10-09)**: Spaceship($8.88)이 해외 카드 결제가 안 돼서 가비아에서 구매. 배포가 GitHub Actions 방식이라 `public/CNAME`만으로는 연결되지 않고 저장소 Settings → Pages의 Custom domain 입력이 필요. 순서는 DNS 설정 → Custom domain 입력 → base 제거 커밋 push. base 제거를 먼저 push하면 github.io/ai-blog/ 주소에서 CSS·링크가 깨지기 때문.
 - **블로그 이름 AI꿀 (2026-10-09, 사용자 결정)**: 도메인 aikkul.com에 맞춰 "AI 작업실"에서 변경. `SITE_TITLE`, WRITING_GUIDE.md, 클라우드 루틴 프롬프트와 이름도 함께 바꿈.
+- **애드센스 신청 (2026-10-15)**: 서치 콘솔 페이지 보고서는 10/9 데이터에 멈춰 색인 1개로 보였지만 URL 검사로 글 4개(초기·최근) 모두 등록 확인 후 신청 진행. 광고 코드와 ads.txt는 블로그스팟과 같은 계정 pub-7324598425987974.

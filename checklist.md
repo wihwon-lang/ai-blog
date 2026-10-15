@@ -46,4 +46,5 @@
 - [x] 저장소 Settings → Pages → Custom domain 입력 (사용자) 후 push — 2026-10-09 aikkul.com 접속 확인
 - [x] HTTPS 강제 켜기 + aikkul.com 접속 확인
 - [x] 구글 서치 콘솔 등록(도메인 속성, 가비아 TXT 인증), 사이트맵 제출 — 2026-10-09
-- [ ] 애드센스 신청 → `ADSENSE_CLIENT` 입력 + `public/ads.txt`
+- [x] `ADSENSE_CLIENT` 입력 + `public/ads.txt` (2026-10-15)
+- [ ] 애드센스 사이트 추가 + 검토 요청
