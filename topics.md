@@ -26,3 +26,4 @@
 - [x] AI 영상 실패 사례 모음 — 손가락, 얼굴 변형, 글자 깨짐 해결법 (ai-video) → ai-video-common-failures-fix.md (발행일 2026-10-16)
 - [x] AI 회의록 자동 정리 — 클로바노트·ChatGPT 기록·구글 미트 노트 비교 (ai-automation) → ai-meeting-notes-transcription.md (발행일 2026-10-17)
 - [x] AI 효과음 만들기 — ElevenLabs·어도비 파이어플라이로 숏폼 효과음 만드는 법 (ai-audio) → ai-sound-effects-generator.md (발행일 2026-10-18)
+- [x] AI로 유튜브 썸네일 만들기 — 나노바나나·캔바로 기획부터 A/B 테스트까지 (ai-image) → ai-youtube-thumbnail-guide.md (발행일 2026-10-19)
