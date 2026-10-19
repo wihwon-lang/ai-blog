@@ -28,3 +28,4 @@
 - [x] AI 효과음 만들기 — ElevenLabs·어도비 파이어플라이로 숏폼 효과음 만드는 법 (ai-audio) → ai-sound-effects-generator.md (발행일 2026-10-18)
 - [x] AI로 유튜브 썸네일 만들기 — 나노바나나·캔바로 기획부터 A/B 테스트까지 (ai-image) → ai-youtube-thumbnail-guide.md (발행일 2026-10-19)
 - [x] AI 이미지 스톡 판매 — 어도비 스톡 생성형 AI 제출 규칙과 수익 구조 (ai-side-income) → adobe-stock-ai-image-selling.md (발행일 2026-10-20)
+- [x] AI로 PDF·긴 문서 요약하기 — ChatGPT·Claude·Gemini 노트북 비교 (ai-automation) → ai-pdf-document-summary.md (발행일 2026-10-21)
