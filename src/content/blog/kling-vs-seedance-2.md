@@ -1,6 +1,6 @@
 ---
-title: '클링 vs Seedance 2.0 비교 — 기능·요금·용도별 추천 (2026년 10월)'
-description: 'AI 영상 도구 클링(Kling)과 Seedance 2.0을 기능, 요금제, 쓰는 곳, 잘 맞는 작업 기준으로 비교했습니다. 어떤 작업에 어떤 도구가 맞는지, 둘을 함께 쓰는 방법까지 표로 정리했습니다.'
+title: '클링 vs Seedance 2.0 — 기능·가격·용도별 비교'
+description: '클링과 Seedance 2.0을 기능, 가격, 쓰는 곳, 잘 맞는 작업 기준으로 비교했습니다. 어떤 작업에 어떤 도구가 맞는지, 둘을 함께 쓰는 방법까지 표로 정리했습니다.'
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false

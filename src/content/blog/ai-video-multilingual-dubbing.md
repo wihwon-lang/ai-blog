@@ -1,6 +1,6 @@
 ---
-title: 'AI 다국어 더빙으로 영상 해외 진출하기 — 유튜브 자동 더빙·ElevenLabs·HeyGen 비교 (2026년 10월)'
-description: '한국어 영상을 영어·일본어 등으로 더빙해 해외 시청자에게 보여 주는 방법을 정리했습니다. 유튜브 자동 더빙, 다국어 오디오 트랙, ElevenLabs 더빙, HeyGen 영상 번역의 차이와 작업 순서, 검수 요령을 표로 비교합니다.'
+title: 'AI 더빙 사이트 비교 — 유튜브 자동 더빙·ElevenLabs·HeyGen'
+description: 'AI 더빙 사이트로 한국어 영상을 영어·일본어 등으로 더빙하는 방법을 정리했습니다. 유튜브 자동 더빙, 다국어 오디오 트랙, ElevenLabs, HeyGen의 차이와 작업 순서, 검수 요령을 표로 비교합니다.'
 category: 'ai-audio'
 pubDate: '2026-10-22'
 draft: false

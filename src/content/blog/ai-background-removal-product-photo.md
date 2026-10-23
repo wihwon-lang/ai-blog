@@ -1,6 +1,6 @@
 ---
-title: 'AI 이미지 배경 제거·합성 — 제품 사진 누끼 따고 배경 바꾸는 법 (2026년 10월)'
-description: '제품 사진의 배경을 AI로 지우고 새 배경에 합성하는 방법을 정리했습니다. remove.bg, Adobe Express, 캔바, 포토룸, 나노바나나의 차이와 자연스러운 합성 요령, 자주 생기는 문제 해결법을 표로 담았습니다.'
+title: '누끼 AI 사이트 추천 — 제품 사진 배경 제거·합성하는 법'
+description: '누끼 AI 사이트로 제품 사진 배경을 지우고 새 배경에 합성하는 방법을 정리했습니다. remove.bg, Adobe Express, 캔바, 포토룸, 나노바나나의 차이와 자연스러운 합성 요령을 표로 담았습니다.'
 category: 'ai-image'
 pubDate: '2026-10-10'
 draft: false

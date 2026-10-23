@@ -1,6 +1,6 @@
 ---
-title: 'AI로 PDF·긴 문서 요약하기 — ChatGPT·Claude·Gemini 노트북 비교와 요약 프롬프트 (2026년 10월)'
-description: '보고서, 논문, 계약서 같은 긴 PDF를 AI로 요약하는 방법을 정리했습니다. ChatGPT, Claude, Gemini 노트북(구 NotebookLM)의 업로드 한도와 특징을 표로 비교하고, 바로 쓰는 요약 프롬프트와 검수 요령을 소개합니다.'
+title: 'PDF 요약 AI 추천 — ChatGPT·Claude·Gemini 비교와 무료 방법'
+description: 'PDF 요약 AI로 보고서·논문·계약서를 요약하는 방법을 정리했습니다. ChatGPT, Claude, Gemini 노트북의 업로드 한도와 특징을 표로 비교하고 바로 쓰는 요약 프롬프트와 검수 요령을 소개합니다.'
 category: 'ai-automation'
 pubDate: '2026-10-21'
 draft: false

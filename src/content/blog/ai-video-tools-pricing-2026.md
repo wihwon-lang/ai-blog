@@ -1,6 +1,6 @@
 ---
-title: 'AI 영상 제작 도구 요금제 비교 (2026년 10월) — 클링·Seedance·런웨이·Veo'
-description: '클링, Seedance 2.0(드리미나), 런웨이, 구글 Veo 3.1의 요금제와 크레딧, 무료 제공량을 한 표로 비교했습니다. 용도별로 어떤 요금제가 맞는지, 돈 아끼는 결제 요령도 정리했습니다.'
+title: 'AI 영상 툴 가격 비교 — 클링·Seedance·런웨이·Veo 요금제'
+description: 'AI 영상 툴 가격을 한 표로 비교했습니다. 클링, Seedance 2.0(드리미나), 런웨이, 구글 Veo 3.1의 요금제와 크레딧, 무료 제공량, 용도별로 맞는 요금제와 돈 아끼는 결제 요령을 정리했습니다.'
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false

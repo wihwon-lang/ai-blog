@@ -1,6 +1,6 @@
 ---
-title: 'AI 뮤직비디오 만들기 — Suno 음악에 클링·Veo 영상을 비트에 맞춰 입히는 법 (2026년 10월)'
-description: 'Suno로 만든 곡에 클링·Veo 3.1 영상을 붙여 AI 뮤직비디오를 완성하는 순서를 정리했습니다. 곡 구조별 컷 리스트, BPM으로 컷 길이 계산하기, 캐릭터 유지, CapCut 비트 편집, 공개 전 권리 확인까지 표로 담았습니다.'
+title: 'AI 뮤직비디오 만들기 — Suno 노래에 클링·Veo 영상 입히는 법'
+description: 'AI 뮤직비디오 만들기 순서를 정리했습니다. Suno 곡에 클링·Veo 3.1 영상을 붙이는 컷 리스트, BPM으로 컷 길이 계산하기, 캐릭터 유지, CapCut 비트 편집, 공개 전 권리 확인까지 표로 담았습니다.'
 category: 'ai-video'
 pubDate: '2026-10-23'
 draft: false

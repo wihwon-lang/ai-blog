@@ -1,6 +1,6 @@
 ---
-title: '구글 Veo 3.1과 Flow 사용법 — Gemini 구독으로 AI 영상 만들기 (2026년 10월)'
-description: '구글 Veo 3.1로 AI 영상을 만드는 두 가지 방법인 Gemini 앱과 Flow를 비교하고, 요금제별 AI 크레딧, 모델별 크레딧 소모, Flow 핵심 기능과 프롬프트 요령을 표로 정리했습니다.'
+title: 'Veo 3.1 사용법 — 제미나이 구독으로 Flow에서 AI 영상 만들기'
+description: 'Veo 3.1 사용법을 정리했습니다. Gemini 앱과 Flow 두 가지 방법을 비교하고, 요금제별 AI 크레딧, 모델별 크레딧 소모, Flow 핵심 기능과 프롬프트 요령을 표로 담았습니다.'
 category: 'ai-video'
 pubDate: '2026-10-04'
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: 'AI 회의록 자동 정리 — 클로바노트·ChatGPT 기록·구글 미트 노트 비교와 요약 프롬프트 (2026년 10월)'
-description: '회의 녹음을 AI로 받아쓰고 요약하는 방법을 정리했습니다. 클로바노트, ChatGPT 기록(Record), 구글 미트 Take notes for me의 이용 조건과 차이, 회의록 요약 프롬프트, 녹음 전 확인할 법·보안 사항을 표로 설명합니다.'
+title: '회의록 AI 추천 — 클로바노트·ChatGPT·구글 미트 비교'
+description: '회의록 AI로 녹음을 받아쓰고 요약하는 방법을 정리했습니다. 클로바노트, ChatGPT 기록, 구글 미트 Take notes for me의 이용 조건과 차이, 요약 프롬프트, 녹음 전 확인할 법·보안 사항을 표로 설명합니다.'
 category: 'ai-automation'
 pubDate: '2026-10-17'
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: 'AI 영상 해상도 높이기 — 업스케일 도구 비교와 1080p·4K 만드는 법 (2026년 10월)'
-description: 'AI로 만든 영상을 1080p나 4K로 키우는 방법을 정리했습니다. 런웨이·구글 Flow의 자체 업스케일, Topaz Video, CapCut 화질 개선 기능의 요금과 조건을 비교하고 업스케일 전후 작업 순서와 문제 해결법을 표로 설명합니다.'
+title: 'AI 영상 화질 개선 — 1080p·4K로 높이는 업스케일 도구 비교'
+description: 'AI 영상 화질 개선 방법을 정리했습니다. 런웨이·구글 Flow의 자체 업스케일, Topaz Video, CapCut 화질 개선 기능의 요금과 조건을 비교하고 작업 순서와 문제 해결법을 표로 설명합니다.'
 category: 'ai-video'
 pubDate: '2026-10-10'
 draft: false
