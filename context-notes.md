@@ -34,3 +34,4 @@
 - **이미지 (사용자 결정)**: 글마다 1~2장. 무료 이미지(Openverse, 상업 이용 가능 라이선스)를 먼저 찾고 없으면 OpenAI 이미지 생성. 생성은 클라우드 루틴에서 하므로 OPENAI_API_KEY를 루틴 환경변수로 넣기로 함(사용자가 직접 입력, OpenAI 월 한도 설정 권장). 생성 이미지에는 글자를 넣지 않음(한글 오타 위험). 다른 블로그·사이트 캡처는 저작권 때문에 쓰지 않음.
 - **이미지 위치**: `src/assets/blog/<slug>/`에 두고 frontmatter `heroImage`와 본문 `![]()`에서 상대 경로로 참조 → Astro가 빌드 때 최적화.
 - **기존 글 대표 이미지 (2026-10-23)**: 38개 글마다 Openverse 후보 4장을 모아 보고 맞는 것 8장만 무료 이미지로(출처 문구 글 끝), 나머지 30장은 gpt-image-2로 생성. 무료 이미지는 AI 도구 주제와 잘 안 맞아 대부분 생성이 필요했음. 생성 중 1건 일시 오류 → gen_image.py에 429·5xx 재시도 추가.
+- **클라우드 키 전달 방식 (2026-10-23)**: 클라우드 환경 설정에 '네트워크 시크릿'이 있어 api.openai.com 요청에 프록시가 Authorization 헤더를 붙여 줌(Claude는 키를 못 읽음). 환경 변수보다 안전해서 이 방식 권장. gen_image.py는 OPENAI_API_KEY가 없으면 인증 헤더 없이 요청. 환경 네트워크 액세스가 '제한됨(도메인 없음)'이라 api.openverse.org, live.staticflickr.com, upload.wikimedia.org, suggestqueries.google.com, ac.search.naver.com 허용 필요(사용자 설정).
