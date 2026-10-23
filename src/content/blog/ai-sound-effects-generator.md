@@ -4,6 +4,7 @@ description: '효과음 AI 사이트로 숏폼·광고 영상용 효과음을 �
 category: 'ai-audio'
 pubDate: '2026-10-18'
 draft: false
+heroImage: '../../assets/blog/ai-sound-effects-generator/hero.webp'
 ---
 
 AI로 영상을 만들고 나면 화면은 그럴듯한데 소리가 비어 있어 어색하게 느껴지는 경우가 많습니다. 이 글은 숏폼, 광고 소재, 유튜브 영상에 들어갈 효과음(SFX)을 AI로 직접 만들고 싶은 크리에이터를 위해 대표 도구의 기능과 비용, 프롬프트 쓰는 법, 상업적 이용 시 확인할 점을 2026년 10월 기준 공식 안내와 공개 자료로 정리합니다.

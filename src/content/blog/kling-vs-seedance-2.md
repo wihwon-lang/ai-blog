@@ -4,6 +4,7 @@ description: '클링과 Seedance 2.0을 기능, 가격, 쓰는 곳, 잘 맞는 �
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/kling-vs-seedance-2/hero.webp'
 ---
 
 AI 영상 도구를 고를 때 가장 많이 비교되는 두 가지가 클링(Kling)과 바이트댄스의 Seedance 2.0입니다. 둘 다 이미지로 영상 만들기, 시작·끝 프레임, 오디오 생성까지 지원해서 스펙만 보면 비슷해 보입니다. 이 글에서는 두 도구의 기능, 요금, 쓰는 곳을 비교하고 작업 종류별로 어떤 도구가 맞는지 정리했습니다.

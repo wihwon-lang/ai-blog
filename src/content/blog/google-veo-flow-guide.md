@@ -4,6 +4,7 @@ description: 'Veo 3.1 사용법을 정리했습니다. Gemini 앱과 Flow 두 �
 category: 'ai-video'
 pubDate: '2026-10-04'
 draft: false
+heroImage: '../../assets/blog/google-veo-flow-guide/hero.webp'
 ---
 
 구글의 영상 생성 모델 Veo 3.1은 따로 영상 사이트에 가입하지 않아도 Gemini 구독만으로 쓸 수 있다는 점이 큰 장점입니다. 이 글에서는 Veo 3.1을 쓰는 두 가지 통로인 Gemini 앱과 Flow의 차이, 요금제별로 받는 크레딧, Flow의 주요 기능과 프롬프트 쓰는 요령까지 처음 시작하는 분 기준으로 정리했습니다.

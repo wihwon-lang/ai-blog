@@ -4,6 +4,7 @@ description: '나노바나나 사용법을 사진 보정과 편집 중심으로 
 category: 'ai-image'
 pubDate: '2026-10-15'
 draft: false
+heroImage: '../../assets/blog/nano-banana-photo-editing-guide/hero.webp'
 ---
 
 사진 보정이라고 하면 보통 포토샵이나 보정 앱의 슬라이더를 떠올리지만, 구글 Gemini의 나노바나나(Nano Banana)는 "배경의 사람을 지워 줘", "조명을 저녁 노을처럼 바꿔 줘"처럼 말로 요청해서 사진을 고칠 수 있습니다. 이 글은 편집 프로그램을 잘 다루지 못하는 분이 나노바나나로 사진을 보정할 때 알아 두면 좋은 사용 순서, 프롬프트 쓰는 요령, 주의할 점을 2026년 10월 기준으로 정리했습니다.

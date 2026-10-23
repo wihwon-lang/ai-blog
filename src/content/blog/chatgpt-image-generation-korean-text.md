@@ -4,6 +4,7 @@ description: '챗GPT 이미지 생성 사용법을 정리했습니다. ChatGPT I
 category: 'ai-image'
 pubDate: '2026-10-25'
 draft: false
+heroImage: '../../assets/blog/chatgpt-image-generation-korean-text/hero.webp'
 ---
 
 ChatGPT는 대화창에서 바로 이미지를 만들고 고칠 수 있어서, 별도 이미지 도구를 배우지 않아도 포스터·썸네일·카드뉴스 시안을 뽑을 수 있습니다. 이 글은 ChatGPT로 이미지를 처음 만들어 보려는 분이나, 이미지 속 한글이 깨지고 원하지 않는 부분까지 바뀌어서 고민인 분을 위해 2026년 10월 기준 사용 순서와 프롬프트 요령을 정리했습니다.

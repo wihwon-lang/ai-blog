@@ -4,6 +4,7 @@ description: '립싱크 AI로 사진이나 AI 이미지 속 인물이 대사를 
 category: 'ai-video'
 pubDate: '2026-10-06'
 draft: false
+heroImage: '../../assets/blog/ai-lip-sync-talking-photo/hero.webp'
 ---
 
 AI 립싱크는 사진이나 AI로 만든 인물 이미지에 음성을 붙여, 그 인물이 실제로 말하는 것처럼 입 모양과 표정을 움직이는 기술입니다. 제품 소개 숏폼, 강의 영상, 캐릭터 채널처럼 얼굴이 나와야 하지만 촬영하기 어려운 경우에 많이 쓰입니다. 이 글에서는 2026년 10월 기준으로 많이 쓰이는 립싱크 도구의 차이와 작업 순서, 자주 생기는 문제와 지켜야 할 규칙을 정리했습니다.

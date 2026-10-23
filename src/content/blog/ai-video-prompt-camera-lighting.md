@@ -4,6 +4,7 @@ description: 'AI 영상 프롬프트 작성법을 정리했습니다. 클링, Se
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/ai-video-prompt-camera-lighting/hero.webp'
 ---
 
 AI 영상이 어색하게 나오는 가장 큰 이유는 "무엇을 찍을지"만 쓰고 "어떻게 찍을지"를 안 쓰기 때문입니다. 실제 촬영 현장에서 쓰는 카메라·조명 용어를 프롬프트에 넣으면 같은 장면도 훨씬 영화처럼 나옵니다. 이 글에서는 AI 영상 도구에서 잘 먹히는 용어만 골라 표로 정리했습니다.

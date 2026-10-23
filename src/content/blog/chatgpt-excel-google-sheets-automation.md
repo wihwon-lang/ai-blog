@@ -4,6 +4,7 @@ description: '챗GPT 엑셀 자동화 방법을 정리했습니다. 파일 업�
 category: 'ai-automation'
 pubDate: '2026-10-09'
 draft: false
+heroImage: '../../assets/blog/chatgpt-excel-google-sheets-automation/hero.webp'
 ---
 
 매출 정리, 주문 목록 정리, 설문 결과 집계처럼 매주 반복되는 스프레드시트 작업은 ChatGPT에 맡길 수 있는 부분이 꽤 많습니다. 이 글은 엑셀이나 구글시트를 자주 쓰지만 함수와 매크로에는 자신이 없는 직장인, 1인 사업자, 온라인 판매자를 위해 ChatGPT로 스프레드시트 업무를 줄이는 방법을 정리합니다. 기능과 요금은 2026년 10월 기준 OpenAI와 구글의 공식 안내를 바탕으로 했습니다.

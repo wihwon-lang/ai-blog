@@ -4,6 +4,7 @@ description: '유튜브 AI 영상 수익 창출 조건을 정리했습니다. AI
 category: 'ai-side-income'
 pubDate: '2026-10-11'
 draft: false
+heroImage: '../../assets/blog/youtube-shorts-ai-content-policy/hero.webp'
 ---
 
 AI 영상 도구로 쇼츠를 만들어 올리는 채널이 빠르게 늘면서, 유튜브의 AI 관련 규칙도 계속 바뀌고 있습니다. "AI로 만든 영상에 꼭 표시를 해야 하는지", "AI 쇼츠로도 수익 창출이 되는지"는 AI 숏폼으로 부업을 시작하려는 분들이 가장 많이 묻는 질문입니다. 이 글에서는 2026년 10월 기준 유튜브 고객센터와 공식 블로그 안내를 바탕으로 AI 표시 라벨과 수익 창출 조건을 정리했습니다.

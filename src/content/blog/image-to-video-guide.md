@@ -4,6 +4,7 @@ description: '사진 영상 변환 AI로 사진이나 AI 이미지 한 장을 �
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/image-to-video-guide/hero.webp'
 ---
 
 AI 영상을 실무에 쓰는 사람들은 대부분 텍스트가 아니라 **이미지에서 시작**합니다. 텍스트만으로 영상을 만들면 인물 얼굴, 옷, 배경이 매번 바뀌지만, 이미지를 넣으면 원하는 장면을 그대로 움직일 수 있기 때문입니다. 이 글에서는 이미지 한 장으로 쓸 만한 영상을 뽑는 과정을 순서대로 정리했습니다.

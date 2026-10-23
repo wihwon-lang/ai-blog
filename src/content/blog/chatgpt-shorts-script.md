@@ -4,6 +4,7 @@ description: '챗GPT 유튜브 대본 프롬프트로 릴스·쇼츠 대본과 �
 category: 'ai-automation'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/chatgpt-shorts-script/hero.webp'
 ---
 
 숏폼을 만들 때 가장 오래 걸리는 건 영상 생성이 아니라 **무엇을 말할지 정하는 일**입니다. ChatGPT나 Claude 같은 AI 챗봇을 쓰면 대본 초안과 장면별 콘티를 몇 분 만에 만들 수 있습니다. 다만 그냥 "대본 써줘"라고 하면 밋밋한 결과가 나오기 때문에, 요청하는 방법이 중요합니다.

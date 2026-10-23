@@ -4,6 +4,7 @@ description: '인스타 릴스를 AI 영상으로 만드는 법을 정리했습�
 category: 'ai-side-income'
 pubDate: '2026-10-14'
 draft: false
+heroImage: '../../assets/blog/instagram-reels-ai-video-routine/hero.webp'
 ---
 
 AI 영상 도구 덕분에 촬영 없이도 인스타그램 릴스를 꾸준히 올릴 수 있게 되었습니다. 하지만 영상을 만드는 것보다 어려운 것은 **어떤 주제로, 어떤 주기로 계속 올릴지** 정하는 일입니다. 이 글은 AI 영상으로 릴스 계정을 시작하려는 분을 위해 주제 정하는 기준, 2026년 10월 기준 인스타그램의 주요 규칙, 한 주 단위로 굴러가는 제작·업로드 루틴을 정리합니다.

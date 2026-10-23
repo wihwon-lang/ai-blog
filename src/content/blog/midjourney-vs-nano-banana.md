@@ -4,6 +4,7 @@ description: '미드저니 V8.2와 나노바나나(Nano Banana 2·Pro)를 가격
 category: 'ai-image'
 pubDate: '2026-10-05'
 draft: false
+heroImage: '../../assets/blog/midjourney-vs-nano-banana/hero.webp'
 ---
 
 AI 이미지를 만들기 시작하면 가장 먼저 고민하는 것이 미드저니(Midjourney)와 구글 나노바나나(Nano Banana) 중 무엇을 쓸지입니다. 두 도구는 모두 인기가 많지만 쓰는 방식, 요금 구조, 잘하는 작업이 꽤 다릅니다. 이 글에서는 2026년 10월 기준 공식 정보를 바탕으로 두 도구의 차이를 정리하고, 용도별로 어떤 도구가 맞는지 안내합니다.

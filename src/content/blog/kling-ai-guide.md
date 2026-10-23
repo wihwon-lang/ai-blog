@@ -4,6 +4,7 @@ description: '클링 AI 사용법을 정리했습니다. 가입 방법, 텍스�
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/kling-ai-guide/hero.webp'
 ---
 
 AI 영상 도구를 하나만 고르라면 아직까지는 클링을 먼저 추천합니다. 사람 움직임이 자연스럽고, 이미지 한 장으로 영상을 만드는 기능이 안정적이라 실무에 바로 쓰기 좋습니다. 이 글에서는 클링을 처음 쓰는 분이 가입부터 첫 영상을 뽑기까지 필요한 내용을 순서대로 정리했습니다.

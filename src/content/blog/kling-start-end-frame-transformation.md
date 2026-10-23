@@ -4,6 +4,7 @@ description: '클링 시작 끝 프레임 기능으로 옷 갈아입기, 낮밤 
 category: 'ai-video'
 pubDate: '2026-10-08'
 draft: false
+heroImage: '../../assets/blog/kling-start-end-frame-transformation/hero.webp'
 ---
 
 숏폼에서 자주 보이는 "순식간에 옷이 바뀌는 영상"이나 "낮이 밤으로 바뀌는 영상"은 대부분 AI 영상 도구의 시작·끝 프레임 기능으로 만듭니다. 첫 장면 이미지와 마지막 장면 이미지를 넣으면 AI가 그 사이를 이어 주는 방식입니다. 이 글에서는 클링(Kling)으로 변신 영상을 만들려는 분을 위해 이미지 준비 요령, 프롬프트 쓰는 법, 실패했을 때 고치는 법을 순서대로 정리했습니다.

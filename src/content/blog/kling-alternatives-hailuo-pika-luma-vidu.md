@@ -4,6 +4,7 @@ description: 'AI 영상 사이트 중 클링 대신 쓸 만한 하이루오(Mini
 category: 'ai-video'
 pubDate: '2026-10-24'
 draft: false
+heroImage: '../../assets/blog/kling-alternatives-hailuo-pika-luma-vidu/hero.webp'
 ---
 
 AI 영상 도구라고 하면 클링(Kling)을 먼저 떠올리는 분이 많지만, 2026년에는 클링과 비슷하거나 특정 작업에서 더 편한 도구가 여럿 있습니다. 이 글은 클링을 쓰다가 다른 선택지가 궁금해진 분, 또는 처음 도구를 고르는 분을 위해 하이루오(Hailuo), 피카(Pika), 루마 드림머신(Luma Dream Machine), 비두(Vidu) 네 가지를 비교합니다. 기능과 공개된 정보 위주로 정리했으며, 체감 품질 점수 같은 주관적 비교는 넣지 않았습니다.

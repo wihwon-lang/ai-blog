@@ -4,6 +4,7 @@ description: '어도비 스톡에 AI 이미지를 판매하려는 분을 위해 
 category: 'ai-side-income'
 pubDate: '2026-10-20'
 draft: false
+heroImage: '../../assets/blog/adobe-stock-ai-image-selling/hero.webp'
 ---
 
 AI 이미지 도구가 보편화되면서 생성한 이미지를 스톡 사이트에 올려 판매하는 것을 부업으로 고려하는 분이 늘고 있습니다. 다만 스톡 사이트마다 AI 콘텐츠를 받는지, 받는다면 어떤 조건을 지켜야 하는지가 크게 다르고, 규칙을 모르고 올리면 심사 거절이 반복되거나 계정에 불이익이 생길 수 있습니다. 이 글에서는 2026년 10월 기준 어도비 스톡(Adobe Stock) 기고자 도움말을 바탕으로 AI 이미지 제출 규칙과 수익 구조를 정리했습니다.

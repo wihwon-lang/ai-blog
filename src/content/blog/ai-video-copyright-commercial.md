@@ -4,6 +4,7 @@ description: 'AI 영상 저작권 문제를 정리했습니다. AI로 만든 영
 category: 'ai-side-income'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/ai-video-copyright-commercial/hero.webp'
 ---
 
 AI 영상을 광고나 외주 작업에 쓰기 시작하면 꼭 나오는 질문이 있습니다. "이거 상업적으로 써도 되나요?", "저작권은 누구한테 있나요?", "AI라고 표시해야 하나요?" 2026년 1월 AI 기본법이 시행되면서 헷갈리는 부분이 더 늘었습니다. 이 글에서는 실무에서 알아 둬야 할 내용만 정리했습니다.

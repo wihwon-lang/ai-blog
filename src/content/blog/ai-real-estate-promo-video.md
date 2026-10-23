@@ -4,6 +4,7 @@ description: '아파트 분양 영상을 촬영 없이 AI 이미지와 AI 영상
 category: 'ai-side-income'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/ai-real-estate-promo-video/hero.jpg'
 ---
 
 분양 홍보 영상은 보통 모델하우스 촬영, 드론 촬영, 편집까지 외주로 맡기면 비용과 시간이 꽤 듭니다. 게다가 아직 완공 전인 현장은 찍을 실물도 없습니다. AI 이미지와 AI 영상 도구를 쓰면 조감도와 자료만으로 홍보 영상을 만들 수 있습니다. 이 글에서는 AI로 분양 홍보 영상을 만드는 과정을 단계별로 정리했습니다.
@@ -95,3 +96,5 @@ AI 영상의 상업 이용과 저작권 문제는 [AI 영상 상업적 이용·�
 ## 마무리
 
 AI 분양 영상은 **완공 전 현장을 빠르게 보여줘야 할 때**와 **광고 소재를 여러 버전으로 테스트할 때** 특히 효과적입니다. 다만 실제와 다르게 보일 수 있는 부분은 반드시 "이미지 연출"로 표시하고, 숫자 정보는 모집공고와 대조해야 신뢰를 지킬 수 있습니다.
+
+*이미지 출처: [Modern apartment building](https://www.flickr.com/photos/14674348@N04/14996764996), DennisM2, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)*

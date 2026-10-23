@@ -4,6 +4,7 @@ description: '상세페이지 AI 제작 순서를 정리했습니다. 나노바�
 category: 'ai-side-income'
 pubDate: '2026-10-08'
 draft: false
+heroImage: '../../assets/blog/ai-product-detail-page-images/hero.webp'
 ---
 
 스마트스토어나 쿠팡에서 물건을 파는 분들에게 상세페이지 이미지는 매출과 바로 이어지는 작업이지만, 촬영과 디자인을 맡기면 비용이 만만치 않습니다. 요즘은 AI 이미지 도구로 배경 연출, 사용 장면, 설명용 그래픽을 직접 만드는 판매자가 늘고 있습니다. 이 글에서는 AI로 상세페이지 이미지를 만드는 순서와 프롬프트, 그리고 2026년에 새로 생긴 플랫폼 정책과 법적 주의점을 정리했습니다.

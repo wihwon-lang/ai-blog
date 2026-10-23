@@ -4,6 +4,7 @@ description: '런웨이 AI 사용법을 정리했습니다. Gen-4.5 가입, 요�
 category: 'ai-video'
 pubDate: '2026-10-04'
 draft: false
+heroImage: '../../assets/blog/runway-gen45-guide/hero.webp'
 ---
 
 런웨이(Runway)는 AI 영상 도구 중에서도 카메라 움직임과 연출을 세밀하게 다루고 싶은 분들이 많이 찾는 서비스입니다. 이 글에서는 런웨이의 최신 영상 모델인 Gen-4.5를 처음 쓰는 분을 위해 가입부터 요금제 고르기, 첫 영상 만들기, 프롬프트 쓰는 요령까지 순서대로 정리했습니다.

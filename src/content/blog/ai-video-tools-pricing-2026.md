@@ -4,6 +4,7 @@ description: 'AI 영상 툴 가격을 한 표로 비교했습니다. 클링, See
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/ai-video-tools-pricing-2026/hero.webp'
 ---
 
 AI 영상 도구는 대부분 **월 구독 + 크레딧** 방식이라, 요금표만 봐서는 실제로 영상을 몇 개 만들 수 있는지 감이 잘 안 옵니다. 이 글에서는 많이 쓰는 AI 영상 도구 네 가지의 요금제를 한 번에 비교하고, 용도별로 어떤 걸 고르면 되는지 정리했습니다.

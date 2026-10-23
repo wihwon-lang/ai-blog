@@ -4,6 +4,7 @@ description: '캡컷 AI 편집 방법을 정리했습니다. AI로 만든 짧은
 category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
+heroImage: '../../assets/blog/capcut-ai-editing-guide/hero.webp'
 ---
 
 AI 영상 도구로 만든 클립은 보통 5~10초짜리 조각입니다. 이걸 릴스나 쇼츠 한 편으로 만들려면 결국 편집이 필요한데, 가장 많이 쓰는 도구가 CapCut입니다. 무료로도 대부분 기능을 쓸 수 있고, 자동 자막이 강력해서 숏폼 편집에 특히 좋습니다. 이 글에서는 AI 클립을 CapCut에서 완성하는 과정을 순서대로 정리했습니다.

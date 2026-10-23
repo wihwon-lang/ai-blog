@@ -4,6 +4,7 @@ description: '누끼 AI 사이트로 제품 사진 배경을 지우고 새 배�
 category: 'ai-image'
 pubDate: '2026-10-10'
 draft: false
+heroImage: '../../assets/blog/ai-background-removal-product-photo/hero.webp'
 ---
 
 제품 사진을 찍으면 배경에 책상, 벽지, 생활용품이 함께 찍혀 깔끔하지 않은 경우가 많습니다. 예전에는 포토샵으로 한 장씩 '누끼'를 따야 했지만, 지금은 AI 도구가 몇 초 만에 배경을 지우고 새 배경까지 만들어 줍니다. 이 글에서는 제품 사진을 처음 다루는 분에게 배경 제거와 합성의 순서, 도구별 차이, 자연스럽게 보이게 만드는 요령을 정리했습니다.

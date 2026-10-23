@@ -4,6 +4,7 @@ description: 'AI 영상 외주 단가를 정하는 방법을 정리했습니다.
 category: 'ai-side-income'
 pubDate: '2026-10-07'
 draft: false
+heroImage: '../../assets/blog/ai-video-freelance-pricing/hero.webp'
 ---
 
 AI 영상으로 외주를 받기 시작하면 가장 먼저 막히는 질문이 "얼마를 받아야 하지?"입니다. AI 영상은 촬영이 없어서 싸게 해 줘야 할 것 같지만, 기획과 생성 반복, 편집에 생각보다 많은 시간이 들어갑니다. 이 글은 AI 영상 외주를 시작하려는 분들께 단가를 계산하는 기준과 작업 범위를 정하는 방법을 정리한 글입니다.
