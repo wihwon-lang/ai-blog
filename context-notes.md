@@ -35,3 +35,4 @@
 - **이미지 위치**: `src/assets/blog/<slug>/`에 두고 frontmatter `heroImage`와 본문 `![]()`에서 상대 경로로 참조 → Astro가 빌드 때 최적화.
 - **기존 글 대표 이미지 (2026-10-23)**: 38개 글마다 Openverse 후보 4장을 모아 보고 맞는 것 8장만 무료 이미지로(출처 문구 글 끝), 나머지 30장은 gpt-image-2로 생성. 무료 이미지는 AI 도구 주제와 잘 안 맞아 대부분 생성이 필요했음. 생성 중 1건 일시 오류 → gen_image.py에 429·5xx 재시도 추가.
 - **클라우드 키 전달 방식 (2026-10-23)**: 클라우드 환경 설정에 '네트워크 시크릿'이 있어 api.openai.com 요청에 프록시가 Authorization 헤더를 붙여 줌(Claude는 키를 못 읽음). 환경 변수보다 안전해서 이 방식 권장. gen_image.py는 OPENAI_API_KEY가 없으면 인증 헤더 없이 요청. 환경 네트워크 액세스가 '제한됨(도메인 없음)'이라 api.openverse.org, live.staticflickr.com, upload.wikimedia.org, suggestqueries.google.com, ac.search.naver.com 허용 필요(사용자 설정).
+- **클라우드 점검 결과 (2026-10-23)**: 네트워크 액세스를 '전체'로 바꾼 뒤 공식 사이트 WebFetch 가능. 네트워크 시크릿은 처음에 값이 key_로 시작해 invalid_api_key, 재등록 때는 헤더 줄이 빠져 401 Missing bearer → 지우고 다시 추가(Authorization / Bearer / sk- 키)해서 해결. 클라우드에서 gpt-image-2 생성 성공. 시크릿은 저장 후 수정 불가, 바꾸려면 삭제 후 재추가.
