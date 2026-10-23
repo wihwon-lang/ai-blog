@@ -1,5 +1,6 @@
-// 사이트 내부 링크에 base 경로(/ai-blog)를 붙여 주는 헬퍼. 도메인 연결 후 base가 '/'가 되면 그대로 동작한다.
+// 사이트 내부 링크에 base 경로를 붙이고, 페이지 경로 끝에 /를 붙여 GitHub Pages의 301 리디렉션을 피하는 헬퍼.
 
 export function url(path: string) {
-	return import.meta.env.BASE_URL.replace(/\/$/, '') + path;
+	const withSlash = /\.[a-z0-9]+$/i.test(path) || path.endsWith('/') ? path : path + '/';
+	return import.meta.env.BASE_URL.replace(/\/$/, '') + withSlash;
 }

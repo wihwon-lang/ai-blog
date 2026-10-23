@@ -5,7 +5,8 @@ type Props = HTMLAttributes<'a'>;
 
 const { href, class: className, ...props } = Astro.props;
 const current = Astro.url.pathname.replace(/\/$/, '');
-const isActive = current === href || current.startsWith(`${href}/`);
+const target = String(href).replace(/\/$/, '');
+const isActive = current === target || current.startsWith(`${target}/`);
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
