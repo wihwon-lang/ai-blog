@@ -32,7 +32,7 @@
 - [x] AI 다국어 더빙으로 영상 해외 진출하기 — 유튜브 자동 더빙·ElevenLabs·HeyGen 비교 (ai-audio) → ai-video-multilingual-dubbing.md (발행일 2026-10-22)
 - [x] AI 뮤직비디오 만들기 — Suno 음악에 클링·Veo 영상을 비트에 맞춰 입히는 법 (ai-video) → ai-music-video-suno-kling.md (발행일 2026-10-23)
 - [x] 클링 말고 뭐가 있을까 — 하이루오·피카 등 다른 AI 영상 도구 비교 (ai-video) → kling-alternatives-hailuo-pika-luma-vidu.md (발행일 2026-10-24)
-- [ ] ChatGPT 이미지 생성 사용법 — 한글 글자 넣기와 부분 수정 요령 (ai-image)
+- [x] ChatGPT 이미지 생성 사용법 — 한글 글자 넣기와 부분 수정 요령 (ai-image) → chatgpt-image-generation-korean-text.md (발행일 2026-10-25)
 - [ ] AI 보이스 클로닝 — 내 목소리로 TTS 만드는 법과 주의할 점 (ai-audio)
 - [ ] ChatGPT 프로젝트·GPTs로 나만의 업무 비서 만들기 (ai-automation)
 - [ ] AI로 전자책 만들어 판매하기 — 크몽·리디·아마존 KDP 규정 정리 (ai-side-income)
