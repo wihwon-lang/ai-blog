@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 
 NO_TEXT = ' No text, no letters, no words, no logos, no watermarks, no brand UI.'
@@ -21,10 +22,14 @@ def call(path, key, body=None):
     req = urllib.request.Request('https://api.openai.com/v1/' + path,
                                  headers={'Authorization': f'Bearer {key}', 'Content-Type': 'application/json'},
                                  data=json.dumps(body).encode() if body else None)
-    try:
-        return json.loads(urllib.request.urlopen(req, timeout=300).read())
-    except urllib.error.HTTPError as e:
-        sys.exit(f'API 오류 {e.code}: {e.read()[:500].decode("utf-8", "ignore")}')
+    for attempt in range(3):  # 일시적인 오류(429·5xx)는 잠시 뒤 다시 시도
+        try:
+            return json.loads(urllib.request.urlopen(req, timeout=300).read())
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < 2:
+                time.sleep(20)
+                continue
+            sys.exit(f'API 오류 {e.code}: {e.read()[:500].decode("utf-8", "ignore")}')
 
 
 def pick_model(key):
@@ -39,6 +44,7 @@ def pick_model(key):
 
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
     if len(sys.argv) < 3:
         print(__doc__)
         sys.exit(1)
