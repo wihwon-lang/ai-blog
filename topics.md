@@ -2,7 +2,7 @@
 
 매일 자동 초안은 위에서부터 체크 안 된 주제를 하나 골라 씁니다. 쓰고 싶은 주제를 위로 올리거나 새로 추가하면 그 순서대로 씁니다. 다 쓴 주제는 `[x]`와 파일 이름이 붙습니다.
 
-형식: `- [ ] 주제 (카테고리)`
+형식: `- [ ] 주제 (카테고리) [검색어: 목표 검색어]` — 검색어는 `scripts/keywords.py`로 구글·네이버 자동완성에서 확인한 실제 검색어
 
 - [x] 런웨이 Gen-4.5 사용법 총정리 — 가입부터 첫 영상까지 (ai-video) → runway-gen45-guide.md
 - [x] 구글 Veo 3.1과 Flow 사용법 — Gemini 구독으로 AI 영상 만들기 (ai-video) → google-veo-flow-guide.md (발행일 2026-10-04)
@@ -33,31 +33,28 @@
 - [x] AI 뮤직비디오 만들기 — Suno 음악에 클링·Veo 영상을 비트에 맞춰 입히는 법 (ai-video) → ai-music-video-suno-kling.md (발행일 2026-10-23)
 - [x] 클링 말고 뭐가 있을까 — 하이루오·피카 등 다른 AI 영상 도구 비교 (ai-video) → kling-alternatives-hailuo-pika-luma-vidu.md (발행일 2026-10-24)
 - [x] ChatGPT 이미지 생성 사용법 — 한글 글자 넣기와 부분 수정 요령 (ai-image) → chatgpt-image-generation-korean-text.md (발행일 2026-10-25)
-- [ ] AI 보이스 클로닝 — 내 목소리로 TTS 만드는 법과 주의할 점 (ai-audio)
-- [ ] ChatGPT 프로젝트·GPTs로 나만의 업무 비서 만들기 (ai-automation)
-- [ ] AI로 전자책 만들어 판매하기 — 크몽·리디·아마존 KDP 규정 정리 (ai-side-income)
-- [ ] AI 영상 카메라 컨트롤 — 카메라 이동·모션 브러시 기능 사용법 (ai-video)
-- [ ] AI로 로고 만들기 — 로고 시안 뽑는 법과 상표 등록 시 주의점 (ai-image)
-- [ ] Suno 가사 쓰는 법 — 한국어 가사 발음과 구조 태그 정리 (ai-audio)
-- [ ] Gemini로 구글 워크스페이스 업무 줄이기 — Gmail·문서·시트 활용 (ai-automation)
-- [ ] AI 숏폼 수익화 조건 비교 — 유튜브 쇼츠·틱톡·인스타 릴스 (ai-side-income)
-- [ ] AI 애니메이션 스타일 영상 — 2D·3D 애니 스타일 프롬프트와 저작권 주의 (ai-video)
-- [ ] AI 이미지 업스케일 — 작은 사진을 인쇄용 고해상도로 키우는 법 (ai-image)
-- [ ] AI로 팟캐스트 만들기 — NotebookLM 오디오 개요와 음성 편집 (ai-audio)
-- [ ] ChatGPT로 이메일·보고서 쓰기 — 상황별 프롬프트 템플릿 (ai-automation)
-- [ ] AI 광고 소재 만들기 — 메타·인스타 광고용 이미지·영상과 A/B 테스트 (ai-side-income)
-- [ ] 브루(Vrew)로 AI 영상 자막·편집하기 — 텍스트 기반 편집 사용법 (ai-video)
-- [ ] AI 인테리어 시안 — 방 사진으로 가구 배치·인테리어 이미지 만들기 (ai-image)
-- [ ] AI 음성 노이즈 제거 — 휴대폰 녹음을 깨끗하게 만드는 도구 비교 (ai-audio)
-- [ ] AI 딥 리서치 비교 — ChatGPT·Gemini·Perplexity로 자료 조사하기 (ai-automation)
-- [ ] AI 그림 굿즈 판매 — 스티커·티셔츠 POD 판매 시 저작권과 플랫폼 규정 (ai-side-income)
-- [ ] AI 제품 광고 영상 — 상품 사진 한 장으로 회전·언박싱 영상 만들기 (ai-video)
-- [ ] AI 프로필 사진 만들기 — 증명사진·SNS 프로필 만드는 법과 주의점 (ai-image)
-- [ ] AI 오디오북 만들기 — TTS로 긴 글 낭독 파일 만드는 법과 저작권 (ai-audio)
-- [ ] 노션 AI 활용법 — 회의 정리·문서 작성·데이터베이스 정리 (ai-automation)
-- [ ] AI 글로 블로그 운영하기 — 애드센스 정책과 AI 글 품질 기준 (ai-side-income)
-- [ ] AI 영상 클립 이어 붙이기 — 여러 장면을 자연스럽게 연결하는 편집 요령 (ai-video)
-- [ ] AI로 웹툰·인스타툰 만들기 — 캐릭터 고정과 컷 구성 (ai-image)
-- [ ] AI 음악 유통 — Suno 음원을 음원 사이트에 올릴 수 있을까 (ai-audio)
-- [ ] 노코드 자동화 도구 비교 — Zapier·Make·n8n에 AI 붙이기 (ai-automation)
-- [ ] AI 영상 외주 포트폴리오 만들기 — 크몽·숨고에서 첫 의뢰 받는 법 (ai-side-income)
+- [ ] 캡컷 AI 목소리 넣는 법과 무료 추천 목소리 (ai-audio) [검색어: 캡컷 ai 목소리]
+- [ ] 나노바나나 프롬프트 모음 — 사진 보정·합성·스타일 변환 예시 (ai-image) [검색어: 나노바나나 프롬프트 모음]
+- [ ] 노션 AI 무료로 어디까지 되나 — 무료 한도와 요금제 차이 (ai-automation) [검색어: 노션 ai 무료]
+- [ ] 클링 AI 무료 크레딧 — 무료로 몇 개까지 만들 수 있나 (ai-video) [검색어: 클링 ai 무료]
+- [ ] AI 부업 종류와 현실 — 수입 구조와 시작 비용 비교 (ai-side-income) [검색어: ai 부업 종류]
+- [ ] 일레븐랩스 한국어 목소리 추천과 무료 플랜 한도 (ai-audio) [검색어: 일레븐랩스 한국어]
+- [ ] AI 그림 판독기 — AI로 만든 그림·사진 구별하는 방법 (ai-image) [검색어: ai 그림 판독기]
+- [ ] NotebookLM 사용법 — 자료 요약부터 PPT·오디오 만들기까지 (ai-automation) [검색어: notebooklm 사용법]
+- [ ] 클링 AI 프롬프트 예시 — 장면별로 바로 쓰는 영상 프롬프트 (ai-video) [검색어: 클링 ai 프롬프트]
+- [ ] AI 그림 저작권 — 상업적으로 써도 되는 경우와 안 되는 경우 (ai-side-income) [검색어: ai 그림 저작권]
+- [ ] Suno AI 가사만 바꾸기 — 같은 곡에 새 가사 입히는 방법 (ai-audio) [검색어: suno ai 가사만 바꾸기]
+- [ ] 미드저니 가격 — 요금제 비교와 무료로 쓸 수 있는지 (ai-image) [검색어: 미드저니 가격]
+- [ ] 퍼플렉시티 무료와 프로 차이 — 요금제와 할인 받는 법 (ai-automation) [검색어: 퍼플렉시티 무료]
+- [ ] AI 영상 편집 프로그램 추천 — 무료·유료 도구 비교 (ai-video) [검색어: ai 영상 편집]
+- [ ] AI 노래 저작권 수익 — 유튜브·음원 사이트에서 수익 낼 수 있을까 (ai-side-income) [검색어: ai 노래 저작권 수익]
+- [ ] AI 목소리 만들기 무료 — 내 목소리 복제와 무료 TTS 도구 (ai-audio) [검색어: ai 목소리 만들기 무료]
+- [ ] AI 프로필 사진 만들기 — 프롬프트 예시와 무료 방법 (ai-image) [검색어: ai 프로필 사진 만들기]
+- [ ] 제미나이 무료로 쓸 수 있는 기능과 프로 차이 (ai-automation) [검색어: 제미나이 무료]
+- [ ] 나노바나나로 영상 만들기 — 이미지에서 영상까지 연결하는 방법 (ai-video) [검색어: 나노바나나 영상 만들기]
+- [ ] AI 쇼츠 수익 현실 — 조회수별 수익과 수익 창출 조건 (ai-side-income) [검색어: ai 쇼츠 수익]
+- [ ] AI 노래 만들기 무료 — 무료로 노래 만드는 사이트 비교 (ai-audio) [검색어: ai 노래 만들기 무료]
+- [ ] ChatGPT 이미지 생성 제한 — 하루 한도와 오류 해결법 (ai-image) [검색어: 챗gpt 이미지 생성 제한]
+- [ ] 클로드 가격 — 무료와 프로 요금제 차이 (ai-automation) [검색어: 클로드 가격]
+- [ ] AI 이미지 생성 사이트 추천 — 무료로 쓸 수 있는 곳 비교 (ai-image) [검색어: ai 이미지 생성 사이트]
+- [ ] ChatGPT 엑셀 업로드 오류 — 파일이 안 올라갈 때 해결법 (ai-automation) [검색어: 챗gpt 엑셀 업로드 오류]
