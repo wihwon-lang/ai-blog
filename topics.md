@@ -33,7 +33,7 @@
 - [x] AI 뮤직비디오 만들기 — Suno 음악에 클링·Veo 영상을 비트에 맞춰 입히는 법 (ai-video) → ai-music-video-suno-kling.md (발행일 2026-10-23)
 - [x] 클링 말고 뭐가 있을까 — 하이루오·피카 등 다른 AI 영상 도구 비교 (ai-video) → kling-alternatives-hailuo-pika-luma-vidu.md (발행일 2026-10-24)
 - [x] ChatGPT 이미지 생성 사용법 — 한글 글자 넣기와 부분 수정 요령 (ai-image) → chatgpt-image-generation-korean-text.md (발행일 2026-10-25)
-- [ ] 캡컷 AI 목소리 넣는 법과 무료 추천 목소리 (ai-audio) [검색어: 캡컷 ai 목소리]
+- [x] 캡컷 AI 목소리 넣는 법과 무료 추천 목소리 (ai-audio) [검색어: 캡컷 ai 목소리] → capcut-ai-voice.md (발행일 2026-10-26)
 - [ ] 나노바나나 프롬프트 모음 — 사진 보정·합성·스타일 변환 예시 (ai-image) [검색어: 나노바나나 프롬프트 모음]
 - [ ] 노션 AI 무료로 어디까지 되나 — 무료 한도와 요금제 차이 (ai-automation) [검색어: 노션 ai 무료]
 - [ ] 클링 AI 무료 크레딧 — 무료로 몇 개까지 만들 수 있나 (ai-video) [검색어: 클링 ai 무료]
