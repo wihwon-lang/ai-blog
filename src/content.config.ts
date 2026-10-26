@@ -18,6 +18,8 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// 대표 이미지 대체 텍스트. 없으면 글 제목을 쓴다
+			heroAlt: z.string().optional(),
 			// 사용자 경험을 아직 안 넣은 초안은 true로 두면 사이트에 노출되지 않는다
 			draft: z.boolean().default(false),
 		}),

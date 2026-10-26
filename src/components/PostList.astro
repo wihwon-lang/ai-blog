@@ -22,7 +22,7 @@ const { posts } = Astro.props;
 				<li>
 					<a href={url(`/blog/${post.id}/`)}>
 						{post.data.heroImage && (
-							<Image width={720} height={405} src={post.data.heroImage} alt="" />
+							<Image width={720} height={405} src={post.data.heroImage} alt={post.data.heroAlt ?? post.data.title} />
 						)}
 						<span class="category">{getCategory(post.data.category).name}</span>
 						<h3 class="title">{post.data.title}</h3>
