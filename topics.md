@@ -36,7 +36,7 @@
 - [x] 캡컷 AI 목소리 넣는 법과 무료 추천 목소리 (ai-audio) [검색어: 캡컷 ai 목소리] → capcut-ai-voice.md (발행일 2026-10-26)
 - [x] 나노바나나 프롬프트 모음 — 사진 보정·합성·스타일 변환 예시 (ai-image) [검색어: 나노바나나 프롬프트 모음] → nano-banana-prompt-collection.md (발행일 2026-10-27)
 - [x] 노션 AI 무료로 어디까지 되나 — 무료 한도와 요금제 차이 (ai-automation) [검색어: 노션 ai 무료] → notion-ai-free-plan-limits.md (발행일 2026-10-28)
-- [ ] 클링 AI 무료 크레딧 — 무료로 몇 개까지 만들 수 있나 (ai-video) [검색어: 클링 ai 무료]
+- [x] 클링 AI 무료 크레딧 — 무료로 몇 개까지 만들 수 있나 (ai-video) [검색어: 클링 ai 무료] → kling-ai-free-credits.md (발행일 2026-10-29)
 - [ ] AI 부업 종류와 현실 — 수입 구조와 시작 비용 비교 (ai-side-income) [검색어: ai 부업 종류]
 - [ ] 일레븐랩스 한국어 목소리 추천과 무료 플랜 한도 (ai-audio) [검색어: 일레븐랩스 한국어]
 - [ ] AI 그림 판독기 — AI로 만든 그림·사진 구별하는 방법 (ai-image) [검색어: ai 그림 판독기]
