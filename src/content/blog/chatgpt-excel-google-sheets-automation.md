@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-09'
 draft: false
 heroImage: '../../assets/blog/chatgpt-excel-google-sheets-automation/hero.webp'
+heroAlt: '차트와 표가 있는 스프레드시트가 띄워진 노트북'
 ---
 
 매출 정리, 주문 목록 정리, 설문 결과 집계처럼 매주 반복되는 스프레드시트 작업은 ChatGPT에 맡길 수 있는 부분이 꽤 많습니다. 이 글은 엑셀이나 구글시트를 자주 쓰지만 함수와 매크로에는 자신이 없는 직장인, 1인 사업자, 온라인 판매자를 위해 ChatGPT로 스프레드시트 업무를 줄이는 방법을 정리합니다. 기능과 요금은 2026년 10월 기준 OpenAI와 구글의 공식 안내를 바탕으로 했습니다.
@@ -143,3 +144,9 @@ ChatGPT가 만든 결과는 **초안**으로 보고, 숫자가 중요한 보고�
 ChatGPT로 스프레드시트 업무를 줄이는 가장 쉬운 출발점은 함수 요청입니다. 표 구조와 프로그램 버전을 정확히 알려 주면 대부분의 수식을 바로 받을 수 있고, 익숙해지면 파일 정리와 분석, 매크로까지 범위를 넓힐 수 있습니다. 시트 안에서 바로 쓰고 싶다면 엑셀·구글시트용 ChatGPT 추가 기능이나 구글시트 AI 함수를 검토해 보세요.
 
 어떤 방법이든 원본을 따로 보관하고, 개인정보는 지우고 올리고, 결과 숫자는 한 번 더 확인하는 세 가지 습관이 중요합니다. 같은 방식으로 글쓰기 업무를 줄이는 방법은 [Claude로 블로그 글 초안 쓰는 법](../claude-blog-draft-writing/)에서, 콘텐츠 기획에 쓰는 프롬프트는 [ChatGPT로 숏폼 대본·콘티 짜는 법](../chatgpt-shorts-script/)에서 확인할 수 있습니다. 요금제와 기능은 자주 바뀌므로 결제 전에는 공식 페이지를 다시 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [ChatGPT](https://chatgpt.com/)
+- [OpenAI 도움말 센터](https://help.openai.com/)
+- [Google Sheets](https://workspace.google.com/products/sheets/)

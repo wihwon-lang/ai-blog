@@ -5,6 +5,7 @@ category: 'ai-image'
 pubDate: '2026-10-27'
 draft: false
 heroImage: '../../assets/blog/nano-banana-prompt-collection/hero.webp'
+heroAlt: '같은 소녀를 사진·피규어·수채화 일러스트로 바꾼 결과물과 고양이 스티커'
 ---
 
 나노바나나 프롬프트 모음을 찾는 분들은 대부분 "피규어처럼 만드는 문장", "사진 두 장을 합치는 문장"처럼 바로 붙여 넣을 수 있는 예시를 원합니다. 이 글은 Gemini 앱의 나노바나나(Nano Banana)에서 자주 쓰이는 작업을 용도별로 나누어, 복사해서 단어만 바꿔 쓰는 프롬프트와 결과가 어긋날 때 고치는 방법을 2026년 10월 기준으로 정리했습니다. 행인 지우기, 하늘 바꾸기 같은 기본 사진 보정은 [나노바나나 사용법](../nano-banana-photo-editing-guide/) 글에서 따로 다뤘습니다.
@@ -186,3 +187,8 @@ heroImage: '../../assets/blog/nano-banana-prompt-collection/hero.webp'
 나노바나나 프롬프트는 길고 화려할 필요가 없습니다. **유지할 것을 먼저 적고, 바꿀 것 하나를 구체적으로 설명하고, 스타일과 비율을 덧붙이는 순서**만 지키면 피규어, 그림체 변환, 합성, 프로필 사진까지 같은 틀로 쓸 수 있습니다. 여러 장을 합칠 때는 사진에 번호를 붙여 부르고, 글자는 되도록 짧게 쓰거나 나중에 넣는 것이 실패를 줄이는 방법입니다.
 
 위의 예시는 출발점일 뿐이니, 결과를 보면서 한 문장씩 고쳐 나가세요. 만든 이미지를 움직이는 영상으로 이어 가고 싶다면 [사진 영상 변환 AI](../image-to-video-guide/) 글도 함께 참고하시기 바랍니다.
+
+## 참고 자료
+
+- [Google Gemini](https://gemini.google.com/)
+- [Gemini 앱 도움말](https://support.google.com/gemini/)

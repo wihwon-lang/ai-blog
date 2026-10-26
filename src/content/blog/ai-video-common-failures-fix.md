@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-16'
 draft: false
 heroImage: '../../assets/blog/ai-video-common-failures-fix/hero.webp'
+heroAlt: '모니터 속 손 이미지를 돋보기로 확인하는 영상 편집자'
 ---
 
 AI 영상을 만들다 보면 손가락이 여섯 개가 되거나, 고개를 돌리는 순간 얼굴이 다른 사람으로 바뀌거나, 간판 글자가 알아볼 수 없게 뭉개지는 결과를 자주 만나게 됩니다. 이 글은 클링, 런웨이, Veo 같은 도구로 숏폼과 광고 영상을 만드는 분들을 위해 대표적인 실패 유형과 원인, 그리고 다시 생성하기 전에 바꿔 볼 수 있는 해결법을 정리합니다. 도구별 기능은 2026년 10월 공식 안내를 기준으로 했습니다.
@@ -133,3 +134,9 @@ negative prompt: extra fingers, distorted hands, morphing face, warped text, fli
 AI 영상의 실패는 대부분 원본 이미지, 동작의 양, 프롬프트 표현, 장면 구성 중 하나에서 시작됩니다. 손과 얼굴 문제는 원본 이미지 점검과 단순한 동작으로 상당 부분 줄일 수 있고, 글자와 물리 오류처럼 생성으로 고치기 어려운 문제는 편집 단계에서 자막을 넣거나 컷을 나누는 방식으로 해결하는 편이 빠릅니다.
 
 원하지 않는 요소를 막는 방법도 도구마다 다릅니다. 클링처럼 네거티브 프롬프트 칸이 있는 도구와 런웨이처럼 긍정형 묘사를 권장하는 도구의 차이를 알고 쓰면 같은 실수를 반복하지 않을 수 있습니다. 기능과 메뉴 구성은 자주 바뀌므로 작업 전에 각 서비스의 공식 도움말을 한 번 더 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Kling AI](https://klingai.com/)
+- [Runway 고객센터](https://help.runwayml.com/)
+- [Google Veo](https://deepmind.google/models/veo/)

@@ -5,6 +5,7 @@ category: 'ai-image'
 pubDate: '2026-10-05'
 draft: false
 heroImage: '../../assets/blog/midjourney-vs-nano-banana/hero.webp'
+heroAlt: '같은 판타지 성을 다른 화풍으로 보여 주는 두 모니터'
 ---
 
 AI 이미지를 만들기 시작하면 가장 먼저 고민하는 것이 미드저니(Midjourney)와 구글 나노바나나(Nano Banana) 중 무엇을 쓸지입니다. 두 도구는 모두 인기가 많지만 쓰는 방식, 요금 구조, 잘하는 작업이 꽤 다릅니다. 이 글에서는 2026년 10월 기준 공식 정보를 바탕으로 두 도구의 차이를 정리하고, 용도별로 어떤 도구가 맞는지 안내합니다.
@@ -134,3 +135,8 @@ cozy Korean cafe interior, morning sunlight through large windows, latte on wood
 미드저니는 V8.2에서 속도와 글자 표현이 좋아졌고 Edit Model로 참조 기능이 정리되면서, 분위기 있는 이미지와 일관된 그림체가 필요한 작업에 잘 맞습니다. 다만 무료 체험이 없고, 결과물을 비공개로 두려면 Pro 이상이 필요합니다.
 
 나노바나나는 Gemini 무료 사용자도 시작할 수 있고, 한국어 대화로 이미지를 만들고 고칠 수 있어 처음 시작하는 분에게 부담이 적습니다. 다만 요금제에 따라 눈에 보이는 워터마크가 붙을 수 있어 상업용이라면 확인이 필요합니다. 처음이라면 나노바나나로 시작해 보고, 특정 그림체나 미감이 중요해지면 미드저니 Basic 요금제를 한 달 써 보는 방식을 추천합니다. 요금과 한도는 자주 바뀌므로 결제 전에는 각 공식 페이지를 꼭 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Midjourney 공식 문서](https://docs.midjourney.com/)
+- [Google Gemini](https://gemini.google.com/)

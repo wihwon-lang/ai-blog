@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-04'
 draft: false
 heroImage: '../../assets/blog/google-veo-flow-guide/hero.webp'
+heroAlt: '해 뜨는 산맥 장면이 띄워진 대형 모니터와 감독 의자'
 ---
 
 구글의 영상 생성 모델 Veo 3.1은 따로 영상 사이트에 가입하지 않아도 Gemini 구독만으로 쓸 수 있다는 점이 큰 장점입니다. 이 글에서는 Veo 3.1을 쓰는 두 가지 통로인 Gemini 앱과 Flow의 차이, 요금제별로 받는 크레딧, Flow의 주요 기능과 프롬프트 쓰는 요령까지 처음 시작하는 분 기준으로 정리했습니다.
@@ -115,3 +116,9 @@ Veo로 만든 영상에는 구글의 보이지 않는 디지털 워터마크(Syn
 Veo 3.1은 Gemini 앱에서 가볍게, Flow에서 본격적으로 쓰는 구조입니다. Google AI Pro 요금제라면 Flow에서 월 1,000크레딧과 하루 50크레딧을 쓸 수 있고, Lite와 Fast로 시안을 잡은 뒤 Quality로 마무리하면 크레딧을 효율적으로 쓸 수 있습니다.
 
 처음이라면 무료로 주어지는 하루 50크레딧으로 Flow 화면과 기능을 익혀 보고, 쓰는 양이 늘면 AI Pro 구독을 고려하는 순서를 추천합니다. 요금제와 크레딧 정책은 자주 바뀌니 결제 전에 Google One 요금제 페이지와 Flow 화면에 표시되는 값을 꼭 확인하세요.
+
+## 참고 자료
+
+- [Google Flow](https://labs.google/flow/about)
+- [Google Veo](https://deepmind.google/models/veo/)
+- [Google AI 요금제](https://one.google.com/about/ai-premium)

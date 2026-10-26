@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-06'
 draft: false
 heroImage: '../../assets/blog/claude-blog-draft-writing/hero.jpg'
+heroAlt: '종이에 blog라고 적힌 연두색 타자기를 치는 손'
 ---
 
 블로그를 꾸준히 운영하려면 글 한 편에 들어가는 시간을 줄여야 합니다. Claude 같은 AI 챗봇을 쓰면 개요와 초안을 빠르게 만들 수 있지만, 그대로 올리면 정보가 틀리거나 다른 글과 비슷한 문장이 되기 쉽습니다. 이 글은 블로그를 운영하는 분들께 Claude로 초안을 쓰는 순서와 프롬프트, 그리고 발행 전에 꼭 거쳐야 할 검수 요령을 정리한 글입니다.
@@ -149,5 +150,10 @@ AI로 쓴 글이 검색에서 불리한지 궁금해하는 분이 많습니다. 
 Claude로 블로그 글을 쓸 때는 "프로젝트에 규칙 정리 → 개요 먼저 받기 → 소제목 단위로 초안 쓰기 → 새 대화에서 검수 → 공식 출처로 사실 확인" 순서를 지키는 것이 핵심입니다. AI는 초안을 빠르게 만드는 역할을 맡고, 정보의 정확성과 최종 판단은 운영자가 맡는다고 생각하면 됩니다.
 
 AI로 만든 결과물을 상업적으로 쓸 때의 저작권 문제가 궁금하다면 [AI 영상 상업적 이용·저작권 정리](../ai-video-copyright-commercial/)도 함께 참고해 보세요. 영상 이야기가 중심이지만 AI 결과물의 권리를 어떻게 보는지에 대한 기본 원칙은 글에도 비슷하게 적용됩니다.
+
+## 참고 자료
+
+- [Claude](https://claude.ai/)
+- [Anthropic 고객센터](https://support.anthropic.com/)
 
 *이미지 출처: [Aerial view of a man typing on a retro typewriter](https://www.flickr.com/photos/147875007@N03/27665216818), Rawpixel Ltd, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*

@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-06'
 draft: false
 heroImage: '../../assets/blog/ai-lip-sync-talking-photo/hero.webp'
+heroAlt: '액자 속 인물 사진이 말하는 듯 움직이는 모습'
 ---
 
 AI 립싱크는 사진이나 AI로 만든 인물 이미지에 음성을 붙여, 그 인물이 실제로 말하는 것처럼 입 모양과 표정을 움직이는 기술입니다. 제품 소개 숏폼, 강의 영상, 캐릭터 채널처럼 얼굴이 나와야 하지만 촬영하기 어려운 경우에 많이 쓰입니다. 이 글에서는 2026년 10월 기준으로 많이 쓰이는 립싱크 도구의 차이와 작업 순서, 자주 생기는 문제와 지켜야 할 규칙을 정리했습니다.
@@ -116,3 +117,10 @@ A young woman in a bright cafe looks at the camera and says warmly, "Today I'll 
 AI 립싱크는 인물 이미지와 음성만 있으면 촬영 없이 말하는 영상을 만들 수 있는 방법입니다. 한국어 대사를 길게 넣어야 한다면 한국어 지원이 명시된 클링 Avatar 2.0이나 다국어를 지원하는 HeyGen, Hedra를, 짧은 장면에 소리까지 한 번에 만들고 싶다면 Veo 3.1을, 표정 연기까지 살리고 싶다면 런웨이 Act-Two를 검토해 보는 것을 추천합니다.
 
 어떤 도구를 쓰든 정면 고해상도 이미지와 깨끗한 음성 파일을 준비하고, 짧은 구간으로 먼저 시험해 보는 것이 크레딧을 아끼는 방법입니다. 실존 인물을 쓰지 않고 AI 생성 사실을 표시하는 것까지 챙기면 채널 운영과 외주 작업 모두에서 문제를 줄일 수 있습니다. 기능과 요금은 자주 바뀌므로 작업 전에 각 서비스의 공식 안내를 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Kling AI](https://klingai.com/)
+- [HeyGen](https://www.heygen.com/)
+- [Hedra](https://www.hedra.com/)
+- [Runway](https://runwayml.com/)

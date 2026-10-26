@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-17'
 draft: false
 heroImage: '../../assets/blog/ai-meeting-notes-transcription/hero.jpg'
+heroAlt: '노트북과 노트를 펼쳐 놓고 회의 내용을 적는 사람들'
 ---
 
 회의가 끝난 뒤 녹음을 다시 들으며 회의록을 쓰는 일은 회의 시간만큼, 때로는 그보다 오래 걸립니다. 이 글은 팀 회의, 거래처 미팅, 강의나 인터뷰 기록을 자주 정리해야 하는 직장인과 1인 사업자를 위해 AI로 녹음을 받아쓰고 회의록까지 정리하는 방법을 소개합니다. 서비스별 이용 조건은 2026년 10월 기준 공식 안내와 공개된 도움말 내용을 바탕으로 정리했습니다.
@@ -122,5 +123,11 @@ AI 회의록은 편리하지만 녹음과 외부 업로드가 함께 일어난�
 AI 회의록은 받아쓰기와 요약을 나눠 생각하면 고르기 쉽습니다. 대면 회의와 녹음 파일은 클로바노트, 구글 미트 회의는 Take notes for me, 맥에서 참여하는 다른 화상회의는 ChatGPT 기록이 출발점으로 잘 맞습니다. 회사 양식에 맞춘 회의록이 필요하다면 받아쓰기 결과를 ChatGPT나 Claude에 넣고 항목을 지정해 요약을 받으세요.
 
 어떤 도구를 쓰든 참석자에게 기록 사실을 알리고, 회사 보안 규정을 먼저 확인하고, 이름·숫자·날짜는 원문과 대조하는 세 가지만 지키면 회의록에 쓰는 시간을 크게 줄일 수 있습니다. 정리한 회의 결과를 표로 관리하고 싶다면 [ChatGPT로 엑셀·구글시트 업무 자동화하기](../chatgpt-excel-google-sheets-automation/)도 함께 참고해 보세요. 요금제와 지원 기능은 자주 바뀌므로 도입 전에는 각 서비스의 공식 도움말을 다시 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [클로바노트](https://clovanote.naver.com/)
+- [ChatGPT](https://chatgpt.com/)
+- [Google Meet 고객센터](https://support.google.com/meet/)
 
 *이미지 출처: [Team Meeting](https://stocksnap.io/photo/team-meeting-JBW2PXDOL6), Startup Stock Photos, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)*

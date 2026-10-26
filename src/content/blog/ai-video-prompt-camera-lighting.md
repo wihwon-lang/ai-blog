@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
 heroImage: '../../assets/blog/ai-video-prompt-camera-lighting/hero.webp'
+heroAlt: '카메라 크레인, 달리 레일, 조명이 설치된 영화 촬영장'
 ---
 
 AI 영상이 어색하게 나오는 가장 큰 이유는 "무엇을 찍을지"만 쓰고 "어떻게 찍을지"를 안 쓰기 때문입니다. 실제 촬영 현장에서 쓰는 카메라·조명 용어를 프롬프트에 넣으면 같은 장면도 훨씬 영화처럼 나옵니다. 이 글에서는 AI 영상 도구에서 잘 먹히는 용어만 골라 표로 정리했습니다.
@@ -110,3 +111,9 @@ Studio lighting with softbox, high contrast reflections, product commercial styl
 용어를 다 외울 필요는 없습니다. 위 표에서 자주 쓸 것 몇 개만 골라 프롬프트 끝에 붙여 보세요. 같은 이미지, 같은 동작이라도 카메라와 조명 한 줄 차이로 결과가 크게 달라집니다.
 
 프롬프트 끝에 `cinematic, soft natural light` 정도만 붙여도 화면이 한결 정돈되어 보입니다. 여기에 장면에 맞는 샷 크기와 무빙 하나를 더하는 것부터 시작해 보세요.
+
+## 참고 자료
+
+- [Kling AI](https://klingai.com/)
+- [Runway 고객센터](https://help.runwayml.com/)
+- [Dreamina(Seedance)](https://dreamina.capcut.com/)

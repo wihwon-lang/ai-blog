@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-13'
 draft: false
 heroImage: '../../assets/blog/ai-card-news-guide/hero.jpg'
+heroAlt: '흰 나무 바닥 위 스마트폰과 분홍색 하트·말풍선 아이콘'
 ---
 
 카드뉴스는 인스타그램, 블로그, 사내 공지까지 두루 쓰이지만 기획하고 문구를 다듬고 디자인까지 하려면 한 세트에 몇 시간이 걸리기 쉽습니다. 이 글은 소상공인, 1인 마케터, SNS 운영 담당자를 위해 AI로 카드뉴스를 만드는 전체 순서를 정리합니다. 기획과 문구는 대화형 AI에, 디자인은 디자인 도구나 이미지 생성 AI에 나눠 맡기는 방식이며, 도구 정보는 2026년 10월 공식 안내를 기준으로 했습니다.
@@ -150,5 +151,11 @@ ChatGPT나 Claude의 프로젝트 기능에 계정 소개, 독자, 말투, 금�
 ## 마무리
 
 AI로 카드뉴스를 만들 때는 기획과 문구는 대화형 AI에, 글자 배치는 캔바나 미리캔버스 같은 디자인 도구에, 표지 그림은 이미지 생성 AI에 나눠 맡기는 방식이 가장 고치기 쉽습니다. 문구를 먼저 완성하고, 이미지는 글자 없이 생성하고, 올리기 전에 숫자와 글자를 사람이 확인하는 세 가지만 지켜도 완성도가 눈에 띄게 달라집니다. 처음에는 6~8장짜리 정보형 카드뉴스 한 세트로 시작해 보고, 쓸 만한 프롬프트와 템플릿을 저장해 시리즈로 이어 가는 것을 추천합니다.
+
+## 참고 자료
+
+- [Canva](https://www.canva.com/)
+- [미리캔버스](https://www.miricanvas.com/)
+- [ChatGPT](https://chatgpt.com/)
 
 *이미지 출처: [White smartphone - Credit to https://homegets.com/](https://www.flickr.com/photos/141436406@N04/49734415127), homegets.com, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*

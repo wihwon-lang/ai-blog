@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-21'
 draft: false
 heroImage: '../../assets/blog/ai-pdf-document-summary/hero.jpg'
+heroAlt: '높이 쌓인 인쇄 문서와 책 더미'
 ---
 
 수십 쪽짜리 보고서나 논문, 사업 공고문을 다 읽을 시간이 없어 핵심만 빠르게 파악하고 싶을 때 AI 요약이 큰 도움이 됩니다. 이 글은 업무나 공부에서 긴 문서를 자주 다루는 분을 위해 ChatGPT, Claude, Gemini 노트북(구 NotebookLM)의 문서 업로드 한도와 특징을 2026년 10월 기준 공식 안내와 공개 자료로 비교하고, 그대로 복사해 쓸 수 있는 요약 프롬프트와 결과 검수 방법을 정리합니다.
@@ -130,5 +131,11 @@ AI 요약은 그럴듯해 보여도 원문에 없는 내용을 섞거나 중요�
 ## 마무리
 
 긴 문서 요약은 생성형 AI가 시간을 가장 크게 줄여 주는 업무 중 하나입니다. 한 번 읽고 끝낼 문서는 ChatGPT나 Claude로, 여러 자료를 쌓아 두고 계속 찾아볼 주제는 Gemini 노트북으로 정리하면 효율이 좋습니다. 어떤 도구를 쓰든 목적을 먼저 알려 주고, 구조 파악과 핵심 요약을 나눠 요청하고, 숫자와 조건은 쪽수와 함께 받아 원문으로 확인하는 습관을 들이면 요약 결과를 안심하고 활용할 수 있습니다. 업로드 한도와 무료 범위는 자주 바뀌므로 작업 전에 각 서비스의 공식 도움말을 한 번 더 확인하세요.
+
+## 참고 자료
+
+- [ChatGPT](https://chatgpt.com/)
+- [Claude](https://claude.ai/)
+- [Google NotebookLM](https://notebooklm.google.com/)
 
 *이미지 출처: [hunted and gathered](https://www.flickr.com/photos/23386796@N00/3985699698), alamosbasement, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*

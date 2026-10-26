@@ -5,6 +5,7 @@ category: 'ai-automation'
 pubDate: '2026-10-28'
 draft: false
 heroImage: '../../assets/blog/notion-ai-free-plan-limits/hero.jpg'
+heroAlt: '대리석 책상 위 노트북, 커피, 메모지와 펜'
 ---
 
 노션으로 메모와 업무 문서를 관리하다 보면 페이지 안에서 바로 요약하고 초안을 써 주는 노션 AI가 눈에 들어옵니다. 그런데 노션 AI 무료로 계속 쓸 수 있는지, 플러스 요금제로 올리면 AI가 풀리는지 헷갈려하는 분이 많습니다. 이 글은 2026년 10월 기준 노션 공식 요금 페이지와 도움말 내용을 바탕으로 무료로 되는 범위, 요금제별 차이, 한도를 아껴 쓰는 방법을 정리했습니다.
@@ -125,5 +126,10 @@ AI 때문에 업그레이드를 고민하는 분이라면, 플러스가 AI 외�
 노션 AI 무료는 기능을 시험해 보는 체험 수준이고, 무료와 플러스 요금제 모두 같은 제한이 적용됩니다. 플러스로 올려도 AI가 풀리지 않으며, 노션 AI를 계속 쓰려면 비즈니스 이상 요금제가 필요합니다. 혼자 쓰는 메모라면 무료 요금제에 ChatGPT·Claude 같은 다른 AI의 무료 버전을 함께 쓰는 방식으로도 충분한 경우가 많고, 팀 단위로 회의록·검색·요약을 매일 쓴다면 비즈니스 체험판으로 먼저 확인해 보는 것을 추천합니다.
 
 노션의 요금과 AI 기능 구성은 최근 몇 년 사이 여러 번 바뀌었습니다. 업그레이드 전에는 노션 공식 요금 페이지와 도움말에서 최신 조건을 다시 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Notion 요금제](https://www.notion.com/pricing)
+- [Notion 고객센터](https://www.notion.com/help)
 
 *이미지 출처: [Top Workspace](https://stocksnap.io/photo/top-workspace-MY9TVNEESX), Top Down Tech, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)*

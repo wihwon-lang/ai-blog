@@ -5,6 +5,7 @@ category: 'ai-audio'
 pubDate: '2026-10-26'
 draft: false
 heroImage: '../../assets/blog/capcut-ai-voice/hero.jpg'
+heroAlt: '흰 나무 바닥 위 스마트폰과 연결된 헤드폰'
 ---
 
 숏폼에 내레이션을 넣고 싶지만 목소리를 직접 녹음하기 어려운 분들이 가장 먼저 찾는 기능이 캡컷 AI 목소리입니다. CapCut에는 자막 글자를 AI 음성으로 읽어 주는 텍스트 음성 변환(TTS)과, 이미 녹음한 목소리를 다른 느낌으로 바꾸는 음성 효과가 함께 들어 있습니다. 이 글은 두 기능의 차이, 모바일과 PC에서 넣는 순서, 무료로 쓸 수 있는 범위, 용도별로 목소리를 고르는 기준을 2026년 10월 기준 공개 자료로 정리했습니다.
@@ -124,5 +125,9 @@ CapCut 공식 안내 페이지는 텍스트 음성 변환으로 만든 오디오
 ## 마무리
 
 캡컷 AI 목소리는 텍스트를 넣고 선택한 뒤 텍스트 음성 변환을 누르는 것만으로 무료로 시작할 수 있습니다. 내 목소리를 바꾸고 싶다면 음성 효과를, 목소리를 아예 드러내지 않으려면 텍스트 음성 변환을 고르면 됩니다. 목소리는 영상 종류에 맞춰 서너 개를 미리 듣고 하나로 통일하고, 숫자와 영어를 한글로 풀어 쓰는 대본 요령을 함께 쓰면 결과가 훨씬 자연스러워집니다. 컷 편집과 자동 자막까지 이어서 완성하는 과정은 [캡컷 AI 편집 방법](../capcut-ai-editing-guide/) 글에서 확인할 수 있습니다.
+
+## 참고 자료
+
+- [CapCut](https://www.capcut.com/)
 
 *이미지 출처: [Headphones Smartphone Technology Edited 2020](https://www.flickr.com/photos/186095195@N02/49421142751), chocolatedazzles, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*

@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-04'
 draft: false
 heroImage: '../../assets/blog/runway-gen45-guide/hero.webp'
+heroAlt: '미래 도시 장면이 띄워진 대형 모니터를 보는 감독'
 ---
 
 런웨이(Runway)는 AI 영상 도구 중에서도 카메라 움직임과 연출을 세밀하게 다루고 싶은 분들이 많이 찾는 서비스입니다. 이 글에서는 런웨이의 최신 영상 모델인 Gen-4.5를 처음 쓰는 분을 위해 가입부터 요금제 고르기, 첫 영상 만들기, 프롬프트 쓰는 요령까지 순서대로 정리했습니다.
@@ -126,3 +127,9 @@ Slow push-in.
 요금제와 기능은 자주 바뀌니 결제 전에 공식 요금 페이지를 확인하세요.
 
 세밀한 카메라 연출과 편집 기능이 필요하다면 런웨이, 인물 중심의 자연스러운 움직임이 우선이라면 클링을 함께 비교해 보는 것을 추천합니다.
+
+## 참고 자료
+
+- [Runway](https://runwayml.com/)
+- [Runway 요금제](https://runwayml.com/pricing)
+- [Runway 고객센터](https://help.runwayml.com/)

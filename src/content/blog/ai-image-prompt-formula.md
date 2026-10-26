@@ -5,6 +5,7 @@ category: 'ai-image'
 pubDate: '2026-10-07'
 draft: false
 heroImage: '../../assets/blog/ai-image-prompt-formula/hero.webp'
+heroAlt: '카메라와 조명이 설치된 사진 스튜디오와 모델 실루엣'
 ---
 
 AI 이미지를 만들 때 결과가 평범하게 나오는 이유는 대부분 프롬프트가 "무엇을 그릴지"에서 끝나기 때문입니다. 같은 고양이 사진이라도 어느 높이에서, 어떤 빛으로, 어떤 질감으로 찍었는지를 적어 주면 결과가 크게 달라집니다. 이 글에서는 AI 이미지를 처음 만드는 분을 위해 프롬프트의 기본 공식과 바로 붙여 쓸 수 있는 구도·조명·스타일 용어를 표로 정리했습니다.
@@ -134,3 +135,8 @@ Soft natural window light, warm tones, 35mm film photography, slight grain.
 AI 이미지 프롬프트는 피사체, 동작, 장소, 구도, 스타일의 다섯 칸으로 나누어 생각하면 훨씬 쉬워집니다. 처음에는 피사체와 장소만 쓰고, 그다음 위 표에서 구도 하나, 조명 하나, 스타일 하나를 골라 덧붙이는 방식으로 연습해 보세요.
 
 같은 프롬프트에서 조명 용어 하나만 바꿔 여러 장을 비교해 보면 각 용어가 결과에 어떤 영향을 주는지 빠르게 익힐 수 있습니다. 도구마다 지원 비율과 파라미터는 업데이트로 바뀔 수 있으므로, 중요한 작업 전에는 각 서비스의 공식 가이드를 한 번 더 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Midjourney 공식 문서](https://docs.midjourney.com/)
+- [Google Gemini](https://gemini.google.com/)

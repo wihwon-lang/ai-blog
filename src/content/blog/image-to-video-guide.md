@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
 heroImage: '../../assets/blog/image-to-video-guide/hero.webp'
+heroAlt: '풍경 사진이 필름 스트립으로 바뀌며 움직이는 모습'
 ---
 
 AI 영상을 실무에 쓰는 사람들은 대부분 텍스트가 아니라 **이미지에서 시작**합니다. 텍스트만으로 영상을 만들면 인물 얼굴, 옷, 배경이 매번 바뀌지만, 이미지를 넣으면 원하는 장면을 그대로 움직일 수 있기 때문입니다. 이 글에서는 이미지 한 장으로 쓸 만한 영상을 뽑는 과정을 순서대로 정리했습니다.
@@ -91,3 +92,9 @@ AI 영상을 실무에 쓰는 사람들은 대부분 텍스트가 아니라 **�
 ## 마무리
 
 이미지 → 영상 방식은 "이미지에서 다 정하고, 영상은 움직임만 더한다"가 핵심입니다. 원본 이미지를 꼼꼼히 만들수록 영상 재생성 횟수가 줄고, 결과적으로 크레딧과 시간이 모두 절약됩니다.
+
+## 참고 자료
+
+- [Kling AI](https://klingai.com/)
+- [Runway](https://runwayml.com/)
+- [Google Veo](https://deepmind.google/models/veo/)

@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-10'
 draft: false
 heroImage: '../../assets/blog/ai-video-upscale-tools/hero.jpg'
+heroAlt: '선명한 풍경 영상이 나오는 대형 TV'
 ---
 
 AI 영상 생성 도구는 비용과 속도 때문에 720p나 1080p로 먼저 만드는 경우가 많습니다. 그런데 유튜브 가로 영상이나 광고 납품처럼 더 높은 해상도가 필요할 때는 업스케일(해상도 키우기) 과정을 한 번 더 거쳐야 합니다. 이 글은 AI 영상을 만드는 크리에이터와 외주 작업자를 위해 생성 도구의 자체 업스케일 기능과 전용 업스케일 프로그램을 2026년 10월 기준 공식 안내로 비교하고, 작업 순서와 주의점을 정리합니다.
@@ -95,5 +96,12 @@ CapCut은 이미 편집을 CapCut으로 하고 있다면 추가 비용 없이 �
 AI 영상의 해상도를 높이는 방법은 생성 도구의 자체 업스케일과 전용 프로그램 두 갈래로 나뉩니다. 런웨이나 구글 Flow처럼 같은 화면에서 처리할 수 있는 도구를 쓰고 있다면 그 기능부터 확인하고, 여러 도구의 클립을 한꺼번에 다루거나 세밀한 조정이 필요할 때 Topaz Video 같은 전용 프로그램을 검토하는 순서를 추천합니다.
 
 숏폼은 1080p로 충분한 경우가 많고, 4K는 납품 조건이나 시청 환경이 요구할 때 쓰면 됩니다. 초안은 낮게, 최종 컷만 높게 만드는 원칙과 자막은 업스케일 뒤에 넣는 순서만 지켜도 비용과 품질을 함께 챙길 수 있습니다. 요금과 크레딧 조건은 자주 바뀌므로 작업 전에 각 서비스의 공식 페이지를 다시 확인하시기 바랍니다.
+
+## 참고 자료
+
+- [Topaz Labs](https://www.topazlabs.com/)
+- [Runway](https://runwayml.com/)
+- [Google Flow](https://labs.google/flow/about)
+- [CapCut](https://www.capcut.com/)
 
 *이미지 출처: [Samsung Curved UHD TV](https://www.flickr.com/photos/65265630@N03/14256160427), Janitors, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*

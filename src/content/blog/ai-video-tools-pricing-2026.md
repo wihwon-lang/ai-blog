@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-03'
 draft: false
 heroImage: '../../assets/blog/ai-video-tools-pricing-2026/hero.webp'
+heroAlt: '요금제 카드가 나란히 띄워진 노트북과 계산기, 신용카드'
 ---
 
 AI 영상 도구는 대부분 **월 구독 + 크레딧** 방식이라, 요금표만 봐서는 실제로 영상을 몇 개 만들 수 있는지 감이 잘 안 옵니다. 이 글에서는 많이 쓰는 AI 영상 도구 네 가지의 요금제를 한 번에 비교하고, 용도별로 어떤 걸 고르면 되는지 정리했습니다.
@@ -73,3 +74,10 @@ AI 영상 도구는 대부분 **월 구독 + 크레딧** 방식이라, 요금표
 처음이라면 무료 크레딧으로 두세 개 도구를 비교해 보고, 결과물 스타일이 마음에 드는 하나만 입문 요금제로 시작하는 걸 추천합니다. 쓰는 양이 늘면 그때 상위 요금제로 올려도 늦지 않습니다.
 
 지금 하나만 결제한다면 입문 비용이 가장 낮은 클링 Standard로 시작하고, CapCut을 이미 구독 중이라면 Seedance부터 써 보는 것이 부담이 적습니다.
+
+## 참고 자료
+
+- [Kling AI](https://klingai.com/)
+- [Dreamina(Seedance)](https://dreamina.capcut.com/)
+- [Runway 요금제](https://runwayml.com/pricing)
+- [Google AI 요금제](https://one.google.com/about/ai-premium)

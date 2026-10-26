@@ -5,6 +5,7 @@ category: 'ai-video'
 pubDate: '2026-10-24'
 draft: false
 heroImage: '../../assets/blog/kling-alternatives-hailuo-pika-luma-vidu/hero.webp'
+heroAlt: '여러 모니터에 서로 다른 영상이 재생되는 작업실'
 ---
 
 AI 영상 도구라고 하면 클링(Kling)을 먼저 떠올리는 분이 많지만, 2026년에는 클링과 비슷하거나 특정 작업에서 더 편한 도구가 여럿 있습니다. 이 글은 클링을 쓰다가 다른 선택지가 궁금해진 분, 또는 처음 도구를 고르는 분을 위해 하이루오(Hailuo), 피카(Pika), 루마 드림머신(Luma Dream Machine), 비두(Vidu) 네 가지를 비교합니다. 기능과 공개된 정보 위주로 정리했으며, 체감 품질 점수 같은 주관적 비교는 넣지 않았습니다.
@@ -141,3 +142,10 @@ cinematic, soft lighting, 9:16 vertical
 클링 외에도 하이루오는 2K와 소리 생성, 피카는 효과와 합성 앱, 루마 드림머신은 HDR과 초안 모드, 비두는 레퍼런스 기반 캐릭터 유지라는 뚜렷한 장점이 있습니다. 어떤 도구가 더 좋다기보다 **만들려는 영상에 필요한 기능이 무엇인지**에 따라 선택이 달라집니다.
 
 처음이라면 무료 크레딧으로 같은 프롬프트를 두세 도구에 넣어 보고, 결과가 마음에 드는 도구 하나만 입문 요금제로 시작하는 것을 추천합니다. 요금과 모델은 자주 바뀌므로 결제 직전에 각 공식 페이지에서 최신 정보를 확인하세요.
+
+## 참고 자료
+
+- [Hailuo AI](https://hailuoai.video/)
+- [Pika](https://pika.art/)
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine)
+- [Vidu](https://www.vidu.com/)

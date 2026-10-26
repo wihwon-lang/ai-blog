@@ -5,6 +5,7 @@ category: 'ai-audio'
 pubDate: '2026-10-09'
 draft: false
 heroImage: '../../assets/blog/korean-ai-tts-comparison/hero.jpg'
+heroAlt: '헤드폰을 건 클래식 마이크'
 ---
 
 숏폼 내레이션, 유튜브 해설, 강의 영상에 AI 음성(TTS)을 쓰는 경우가 많아졌지만, 서비스마다 요금 구조와 상업적 이용 조건이 달라 고르기가 쉽지 않습니다. 이 글은 한국어 내레이션이 필요한 크리에이터와 소규모 사업자를 위해 ElevenLabs, 타입캐스트, 클로바더빙 세 서비스를 2026년 10월 기준 공식 안내와 공개 자료로 비교합니다. 음질 점수 같은 주관적 평가 대신 요금, 한도, 기능, 이용 조건을 중심으로 정리했습니다.
@@ -137,5 +138,11 @@ AI 음성을 수익 창출 채널이나 광고에 쓸 때는 아래 조건을 �
 세 서비스 모두 한국어 내레이션을 만들 수 있지만 고르는 기준은 분명히 다릅니다. 영어·일본어 등 다국어 콘텐츠나 내 목소리 복제가 필요하다면 ElevenLabs가, 한국어 화면에서 다양한 캐릭터 목소리를 고르고 싶다면 타입캐스트가, 이미 만든 영상이나 강의 자료에 더빙만 입히고 싶다면 클로바더빙이 잘 맞습니다.
 
 처음이라면 세 서비스의 무료 플랜으로 같은 대본을 각각 만들어 들어 보고, 내 콘텐츠에 맞는 목소리를 고른 뒤 유료 요금제로 넘어가는 순서를 추천합니다. 무료로 만든 음성은 상업적으로 쓰기 어렵다는 점과, 요금과 한도는 수시로 바뀐다는 점을 꼭 기억하시기 바랍니다.
+
+## 참고 자료
+
+- [ElevenLabs](https://elevenlabs.io/)
+- [타입캐스트](https://typecast.ai/)
+- [클로바더빙](https://clovadubbing.naver.com/)
 
 *이미지 출처: [professional-retro-microphone--dj-headphones-](https://www.flickr.com/photos/115089924@N02/12212276953), www.ilmicrofono.it, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*
