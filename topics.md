@@ -39,7 +39,7 @@
 - [x] 클링 AI 무료 크레딧 — 무료로 몇 개까지 만들 수 있나 (ai-video) [검색어: 클링 ai 무료] → kling-ai-free-credits.md (발행일 2026-10-29)
 - [x] AI 부업 종류와 현실 — 수입 구조와 시작 비용 비교 (ai-side-income) [검색어: ai 부업 종류] → ai-side-hustle-types.md (발행일 2026-10-30)
 - [x] 일레븐랩스 한국어 목소리 추천과 무료 플랜 한도 (ai-audio) [검색어: 일레븐랩스 한국어] → elevenlabs-korean-voice.md (발행일 2026-10-31)
-- [ ] AI 그림 판독기 — AI로 만든 그림·사진 구별하는 방법 (ai-image) [검색어: ai 그림 판독기]
+- [x] AI 그림 판독기 — AI로 만든 그림·사진 구별하는 방법 (ai-image) [검색어: ai 그림 판독기] → ai-image-detector-check.md (발행일 2026-11-01)
 - [ ] NotebookLM 사용법 — 자료 요약부터 PPT·오디오 만들기까지 (ai-automation) [검색어: notebooklm 사용법]
 - [ ] 클링 AI 프롬프트 예시 — 장면별로 바로 쓰는 영상 프롬프트 (ai-video) [검색어: 클링 ai 프롬프트]
 - [ ] AI 그림 저작권 — 상업적으로 써도 되는 경우와 안 되는 경우 (ai-side-income) [검색어: ai 그림 저작권]
