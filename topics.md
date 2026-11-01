@@ -42,7 +42,7 @@
 - [x] AI 그림 판독기 — AI로 만든 그림·사진 구별하는 방법 (ai-image) [검색어: ai 그림 판독기] → ai-image-detector-check.md (발행일 2026-11-01)
 - [x] NotebookLM 사용법 — 자료 요약부터 PPT·오디오 만들기까지 (ai-automation) [검색어: notebooklm 사용법] → notebooklm-guide.md (발행일 2026-11-02)
 - [x] 클링 AI 프롬프트 예시 — 장면별로 바로 쓰는 영상 프롬프트 (ai-video) [검색어: 클링 ai 프롬프트] → kling-ai-prompt-examples.md (발행일 2026-11-03)
-- [ ] AI 그림 저작권 — 상업적으로 써도 되는 경우와 안 되는 경우 (ai-side-income) [검색어: ai 그림 저작권]
+- [x] AI 그림 저작권 — 상업적으로 써도 되는 경우와 안 되는 경우 (ai-side-income) [검색어: ai 그림 저작권] → ai-image-copyright-commercial.md (발행일 2026-11-04)
 - [ ] Suno AI 가사만 바꾸기 — 같은 곡에 새 가사 입히는 방법 (ai-audio) [검색어: suno ai 가사만 바꾸기]
 - [ ] 미드저니 가격 — 요금제 비교와 무료로 쓸 수 있는지 (ai-image) [검색어: 미드저니 가격]
 - [ ] 퍼플렉시티 무료와 프로 차이 — 요금제와 할인 받는 법 (ai-automation) [검색어: 퍼플렉시티 무료]
