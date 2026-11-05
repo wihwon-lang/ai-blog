@@ -46,7 +46,7 @@
 - [x] Suno AI 가사만 바꾸기 — 같은 곡에 새 가사 입히는 방법 (ai-audio) [검색어: suno ai 가사만 바꾸기] → suno-ai-change-lyrics.md (발행일 2026-11-05)
 - [x] 미드저니 가격 — 요금제 비교와 무료로 쓸 수 있는지 (ai-image) [검색어: 미드저니 가격] → midjourney-pricing.md (발행일 2026-11-06)
 - [x] 퍼플렉시티 무료와 프로 차이 — 요금제와 할인 받는 법 (ai-automation) [검색어: 퍼플렉시티 무료] → perplexity-free-vs-pro.md (발행일 2026-11-07)
-- [ ] AI 영상 편집 프로그램 추천 — 무료·유료 도구 비교 (ai-video) [검색어: ai 영상 편집]
+- [x] AI 영상 편집 프로그램 추천 — 무료·유료 도구 비교 (ai-video) [검색어: ai 영상 편집] → ai-video-editing-software.md (발행일 2026-11-08)
 - [ ] AI 노래 저작권 수익 — 유튜브·음원 사이트에서 수익 낼 수 있을까 (ai-side-income) [검색어: ai 노래 저작권 수익]
 - [ ] AI 목소리 만들기 무료 — 내 목소리 복제와 무료 TTS 도구 (ai-audio) [검색어: ai 목소리 만들기 무료]
 - [ ] AI 프로필 사진 만들기 — 프롬프트 예시와 무료 방법 (ai-image) [검색어: ai 프로필 사진 만들기]
