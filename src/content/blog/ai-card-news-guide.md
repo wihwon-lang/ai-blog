@@ -1,6 +1,6 @@
 ---
-title: '카드뉴스 AI 제작 — 기획부터 문구·디자인까지 만드는 순서'
-description: '카드뉴스 AI 제작 순서를 정리했습니다. ChatGPT·Claude로 기획과 문구를 만들고 캔바·미리캔버스나 이미지 생성 AI로 디자인하는 방법, 바로 쓰는 프롬프트, 발행 전 검수표를 담았습니다.'
+title: '카드뉴스 만들기 AI 5단계 — 챗GPT 문구부터 캔바 디자인까지'
+description: '카드뉴스 만들기를 AI로 5단계에 끝내는 방법입니다. ChatGPT·Claude로 장별 구성과 문구를 쓰고 캔바·미리캔버스로 디자인하는 순서, 바로 쓰는 프롬프트 예시와 발행 전 검수표를 담았습니다.'
 category: 'ai-automation'
 pubDate: '2026-10-13'
 draft: false

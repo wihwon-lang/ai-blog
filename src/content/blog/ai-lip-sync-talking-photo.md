@@ -1,6 +1,6 @@
 ---
-title: '립싱크 AI 추천 — 사진 속 인물이 말하는 영상 만드는 법'
-description: '립싱크 AI로 사진이나 AI 이미지 속 인물이 대사를 말하는 영상을 만드는 방법을 정리했습니다. 클링 Avatar 2.0, HeyGen, Hedra, 런웨이 Act-Two, Veo 3.1의 차이와 실패 해결법을 표로 담았습니다.'
+title: '립싱크 AI 추천 5가지 — 사진 한 장으로 말하는 영상 만드는 법'
+description: '립싱크 AI 클링 Avatar 2.0, HeyGen, Hedra, 런웨이 Act-Two, Veo 3.1을 비교했습니다. 사진 한 장과 음성으로 말하는 영상을 만드는 순서, 자연스러운 음성 준비 요령, 자주 생기는 실패와 해결법을 정리했습니다.'
 category: 'ai-video'
 pubDate: '2026-10-06'
 draft: false

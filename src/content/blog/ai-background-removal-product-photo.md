@@ -1,6 +1,6 @@
 ---
-title: '누끼 AI 사이트 추천 — 제품 사진 배경 제거·합성하는 법'
-description: '누끼 AI 사이트로 제품 사진 배경을 지우고 새 배경에 합성하는 방법을 정리했습니다. remove.bg, Adobe Express, 캔바, 포토룸, 나노바나나의 차이와 자연스러운 합성 요령을 표로 담았습니다.'
+title: '누끼 따기 AI 사이트 5곳 비교 — 제품 사진 배경 지우고 합성하는 법'
+description: '누끼 따기 AI 사이트 remove.bg, Adobe Express, 캔바, 포토룸, 나노바나나를 무료로 되는 범위 기준으로 비교했습니다. 배경이 깔끔하게 지워지는 촬영 요령과 새 배경에 자연스럽게 합성하는 법도 정리했습니다.'
 category: 'ai-image'
 pubDate: '2026-10-10'
 draft: false
