@@ -52,7 +52,7 @@
 - [x] AI 프로필 사진 만들기 — 프롬프트 예시와 무료 방법 (ai-image) [검색어: ai 프로필 사진 만들기] → ai-profile-photo-maker.md (발행일 2026-11-11)
 - [x] 제미나이 무료로 쓸 수 있는 기능과 프로 차이 (ai-automation) [검색어: 제미나이 무료] → gemini-free-vs-pro.md (발행일 2026-11-12)
 - [x] 나노바나나로 영상 만들기 — 이미지에서 영상까지 연결하는 방법 (ai-video) [검색어: 나노바나나 영상 만들기] → nano-banana-video-making.md (발행일 2026-11-13)
-- [ ] AI 쇼츠 수익 현실 — 조회수별 수익과 수익 창출 조건 (ai-side-income) [검색어: ai 쇼츠 수익]
+- [x] AI 쇼츠 수익 현실 — 조회수별 수익과 수익 창출 조건 (ai-side-income) [검색어: ai 쇼츠 수익] → ai-shorts-revenue-reality.md (발행일 2026-11-14)
 - [ ] AI 노래 만들기 무료 — 무료로 노래 만드는 사이트 비교 (ai-audio) [검색어: ai 노래 만들기 무료]
 - [ ] ChatGPT 이미지 생성 제한 — 하루 한도와 오류 해결법 (ai-image) [검색어: 챗gpt 이미지 생성 제한]
 - [ ] 클로드 가격 — 무료와 프로 요금제 차이 (ai-automation) [검색어: 클로드 가격]
