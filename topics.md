@@ -55,6 +55,6 @@
 - [x] AI 쇼츠 수익 현실 — 조회수별 수익과 수익 창출 조건 (ai-side-income) [검색어: ai 쇼츠 수익] → ai-shorts-revenue-reality.md (발행일 2026-11-14)
 - [x] AI 노래 만들기 무료 — 무료로 노래 만드는 사이트 비교 (ai-audio) [검색어: ai 노래 만들기 무료] → ai-song-maker-free.md (발행일 2026-11-15)
 - [x] ChatGPT 이미지 생성 제한 — 하루 한도와 오류 해결법 (ai-image) [검색어: 챗gpt 이미지 생성 제한] → chatgpt-image-generation-limit.md (발행일 2026-11-16)
-- [ ] 클로드 가격 — 무료와 프로 요금제 차이 (ai-automation) [검색어: 클로드 가격]
+- [x] 클로드 가격 — 무료와 프로 요금제 차이 (ai-automation) [검색어: 클로드 가격] → claude-pricing-plans.md (발행일 2026-11-17)
 - [ ] AI 이미지 생성 사이트 추천 — 무료로 쓸 수 있는 곳 비교 (ai-image) [검색어: ai 이미지 생성 사이트]
 - [ ] ChatGPT 엑셀 업로드 오류 — 파일이 안 올라갈 때 해결법 (ai-automation) [검색어: 챗gpt 엑셀 업로드 오류]
