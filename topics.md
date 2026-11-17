@@ -58,3 +58,4 @@
 - [x] 클로드 가격 — 무료와 프로 요금제 차이 (ai-automation) [검색어: 클로드 가격] → claude-pricing-plans.md (발행일 2026-11-17)
 - [x] AI 이미지 생성 사이트 추천 — 무료로 쓸 수 있는 곳 비교 (ai-image) [검색어: ai 이미지 생성 사이트] → ai-image-generator-sites.md (발행일 2026-11-18)
 - [x] ChatGPT 엑셀 업로드 오류 — 파일이 안 올라갈 때 해결법 (ai-automation) [검색어: 챗gpt 엑셀 업로드 오류] → chatgpt-excel-upload-error.md (발행일 2026-11-19)
+- [x] 하이루오 AI 가격 — 요금제별 크레딧과 영상 몇 개 만들 수 있나 (ai-video) [검색어: 하이루오 ai 가격] → hailuo-ai-pricing.md (발행일 2026-11-20)
