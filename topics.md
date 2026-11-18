@@ -59,3 +59,4 @@
 - [x] AI 이미지 생성 사이트 추천 — 무료로 쓸 수 있는 곳 비교 (ai-image) [검색어: ai 이미지 생성 사이트] → ai-image-generator-sites.md (발행일 2026-11-18)
 - [x] ChatGPT 엑셀 업로드 오류 — 파일이 안 올라갈 때 해결법 (ai-automation) [검색어: 챗gpt 엑셀 업로드 오류] → chatgpt-excel-upload-error.md (발행일 2026-11-19)
 - [x] 하이루오 AI 가격 — 요금제별 크레딧과 영상 몇 개 만들 수 있나 (ai-video) [검색어: 하이루오 ai 가격] → hailuo-ai-pricing.md (발행일 2026-11-20)
+- [x] AI 전자책 만들기 — 주제 잡기부터 판매 등록까지 6단계 (ai-side-income) [검색어: ai 전자책 만들기] → ai-ebook-making.md (발행일 2026-11-21)
