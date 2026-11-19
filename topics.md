@@ -60,3 +60,4 @@
 - [x] ChatGPT 엑셀 업로드 오류 — 파일이 안 올라갈 때 해결법 (ai-automation) [검색어: 챗gpt 엑셀 업로드 오류] → chatgpt-excel-upload-error.md (발행일 2026-11-19)
 - [x] 하이루오 AI 가격 — 요금제별 크레딧과 영상 몇 개 만들 수 있나 (ai-video) [검색어: 하이루오 ai 가격] → hailuo-ai-pricing.md (발행일 2026-11-20)
 - [x] AI 전자책 만들기 — 주제 잡기부터 판매 등록까지 6단계 (ai-side-income) [검색어: ai 전자책 만들기] → ai-ebook-making.md (발행일 2026-11-21)
+- [x] 수노 스튜디오 사용법 — 가격, 스템 분리, 내보내기 (ai-audio) [검색어: 수노 스튜디오] → suno-studio-guide.md (발행일 2026-11-22)
