@@ -44,12 +44,13 @@ heroAlt: '이미지에 실제로 보이는 장면을 한국어 한 문장으로'
 1. **대표 이미지(필수)**: 무료 이미지를 먼저 찾는다.
    - `python3 scripts/find_image.py search "<영어 검색어>"` → 미리보기를 열어 글 내용과 맞는지 확인 → `python3 scripts/find_image.py get "<같은 검색어>" <번호> src/assets/blog/<slug>/hero`
    - 출력된 **출처 문구를 글 맨 끝(마무리 아래)에 그대로 붙인다.** 라이선스 표기는 빼지 않는다.
-   - 맞는 무료 이미지가 없으면 생성한다. `python3 scripts/gen_image.py src/assets/blog/<slug>/hero "<영어 프롬프트>"`. 생성 이미지는 출처 문구 없이 쓴다.
+   - 맞는 무료 이미지가 없으면 **오파독 커넥터**로 생성한다(운영자가 견적 확인 없이 바로 생성하도록 허락함, 2026-11-22). 순서는 `media_quote_get`(model `bytedance-seed/seedream-5-0-lite`, modality image, aspect_ratio `16:9`, n 1) → 같은 조건으로 `media_generate_run`(confirm_credits=견적, idempotency_key는 `aikkul-<slug>-<날짜>`) → `media_jobs_wait`나 `media_job_get`으로 완성을 기다려 결과 이미지 주소를 받고 `curl -L -o src/assets/blog/<slug>/hero.<확장자>`로 저장한다. 견적이 **30크레딧을 넘으면 만들지 않는다.** 생성 이미지는 출처 문구 없이 쓴다.
+   - OpenAI(`scripts/gen_image.py`)는 더 이상 쓰지 않는다.
 2. **본문 이미지(선택, 1장)**: 단계나 개념을 보여주면 이해가 쉬워지는 글에만 같은 방법으로 `src/assets/blog/<slug>/body` 를 만들고, 관련 소제목 아래에 `![설명하는 대체 텍스트](../../assets/blog/<slug>/body.webp)` 로 넣는다 (확장자는 실제 파일에 맞춘다).
 3. frontmatter `heroImage` 경로의 확장자도 실제 파일(.jpg/.png/.webp)에 맞춘다. `heroAlt`에는 이미지를 열어 보고 **실제로 보이는 장면**을 한국어 한 문장으로 쓴다(예: `헤드폰을 건 클래식 마이크`). 키워드를 억지로 넣지 않는다. 본문 이미지의 `![]()` 대체 텍스트도 같은 방식으로 쓴다.
 4. 생성 프롬프트는 영어로, 글 주제를 보여주는 장면이나 도식으로 쓴다. 글자·로고·실제 서비스 화면·실존 인물은 넣지 않는다.
 5. 다른 블로그·사이트 이미지나 캡처를 내려받아 쓰지 않는다 (저작권).
-6. 두 스크립트가 모두 실패하면(네트워크·키 문제) 이미지 없이 발행하고, 마지막 보고에 "이미지 없음"을 적는다.
+6. 무료 이미지가 맞지 않고 오파독도 실패하면(생성 일시 중지, 크레딧 부족 등) 이미지 없이 발행하고, 마지막 보고에 "이미지 없음"과 이유를 적는다.
 
 ## 본문 구성
 
