@@ -64,3 +64,4 @@
 - [x] 미드저니 사용법 — 웹에서 첫 이미지 만들고 수정·다운로드하기 (ai-image) [검색어: 미드저니 사용법] → midjourney-how-to-use.md (발행일 2026-11-23)
 - [x] 챗GPT 프로젝트 사용법 — 만들기, 지침, 파일·공유 한도 (ai-automation) [검색어: 챗gpt 프로젝트 사용법] → chatgpt-projects-how-to-use.md (발행일 2026-11-24)
 - [x] 시댄스 2.5 — 2.0과 달라진 점, 사용법과 가격 (ai-video) [검색어: 시댄스 2.5] → seedance-2-5-guide.md (발행일 2026-11-25)
+- [x] AI 웹툰 만들기 — 캐릭터 유지하며 컷 그리는 5단계와 무료 도구 (ai-image) [검색어: ai 웹툰 만들기] → ai-webtoon-making.md (발행일 2026-11-26)
