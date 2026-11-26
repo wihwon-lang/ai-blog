@@ -1,11 +1,18 @@
 ---
 import { url } from '../lib/url';
+import { Image } from 'astro:assets';
 import PostList from '../components/PostList.astro';
 import { CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPublishedPosts } from '../lib/posts';
 
-const posts = (await getPublishedPosts()).slice(0, 10);
+const allPosts = await getPublishedPosts();
+const posts = allPosts.slice(0, 3);
+// 카테고리마다 최신 글 3개씩 묶어 보여 준다 (잡지형 첫 화면)
+const sections = CATEGORIES.map((c) => ({
+	...c,
+	posts: allPosts.filter((p) => p.data.category === c.slug).slice(0, 3),
+})).filter((c) => c.posts.length > 0);
 ---
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
@@ -30,6 +37,29 @@ const posts = (await getPublishedPosts()).slice(0, 10);
 		<PostList posts={posts} />
 		<p class="more"><a href={url('/blog')}>전체 글 보기 →</a></p>
 	</section>
+
+	{
+		sections.map((c) => (
+			<section class="cat-section">
+				<div class="cat-head">
+					<h2>{c.name}</h2>
+					<a href={url(`/category/${c.slug}`)}>더 보기 →</a>
+				</div>
+				<ul class="cards">
+					{c.posts.map((p) => (
+						<li>
+							<a href={url(`/blog/${p.id}/`)}>
+								{p.data.heroImage && (
+									<Image width={480} height={270} src={p.data.heroImage} alt={p.data.heroAlt ?? p.data.title} />
+								)}
+								<span>{p.data.title}</span>
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
+		))
+	}
 </BaseLayout>
 
 <style>
@@ -85,5 +115,57 @@ const posts = (await getPublishedPosts()).slice(0, 10);
 	.more {
 		margin-top: 1.5em;
 		text-align: right;
+	}
+	.cat-section {
+		margin-top: 2.5em;
+		padding-top: 1.5em;
+		border-top: 1px solid rgb(var(--gray-light));
+	}
+	.cat-head {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1em;
+	}
+	.cat-head h2 {
+		margin: 0 0 0.6em;
+		font-size: 1.4em;
+	}
+	.cat-head a {
+		font-size: 0.85em;
+		white-space: nowrap;
+	}
+	.cards {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1em;
+	}
+	.cards a {
+		display: block;
+		text-decoration: none;
+		color: rgb(var(--black));
+	}
+	.cards img {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+		margin-bottom: 0.5em;
+	}
+	.cards span {
+		display: block;
+		font-size: 0.95em;
+		font-weight: 600;
+		line-height: 1.45;
+	}
+	.cards a:hover span {
+		color: var(--accent);
+	}
+	@media (max-width: 720px) {
+		.cards {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>
