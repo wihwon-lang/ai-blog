@@ -4,19 +4,29 @@ import { CATEGORIES, SITE_TITLE } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="소개" description={`${SITE_TITLE}는 생성형 AI를 실무에 쓰는 방법을 직접 써보고 정리하는 블로그입니다.`}>
+<BaseLayout title="소개" description={`${SITE_TITLE}은 생성형 AI를 실무에 쓰는 방법을 직접 써보고 정리하는 블로그입니다.`}>
 	<div class="prose">
 		<h1>{SITE_TITLE} 소개</h1>
 
 		<p>
-			{SITE_TITLE}는 AI 영상, 이미지, 음악, 업무 자동화 도구를 실제 작업에 써보고, 그 과정과 결과를 정리하는
+			{SITE_TITLE}은 AI 영상, 이미지, 음악, 업무 자동화 도구를 실제 작업에 써보고, 그 과정과 결과를 정리하는
 			블로그입니다.
 		</p>
 
 		<h2>운영자</h2>
 		<p>
-			AI 영상 제작과 마케팅 콘텐츠를 만드는 실무자입니다. 부동산 분양 홍보 영상, 광고 소재, 숏폼 콘텐츠를
-			생성형 AI로 제작하면서 실제로 결제하고 사용하는 도구들을 기준으로 글을 씁니다.
+			{SITE_TITLE}은 AI 콘텐츠 마케팅 스튜디오{' '}<a href="https://yunsulcore.com" target="_blank" rel="noopener">윤슬코어콘텐츠</a>가 운영합니다.
+			윤슬코어콘텐츠는 생성형 AI로 부동산 분양 홍보 영상, 광고 소재, 숏폼·릴스, 카드뉴스를 만들고 SNS 운영을
+			대행하는 곳입니다.
+		</p>
+		<ul>
+			<li>실제 작업에 쓰는 도구: 클링(Kling), 나노바나나, CapCut(Seedance), ChatGPT</li>
+			<li>
+				작업 사례:{' '}<a href="https://yunsulcore.com/portfolio.html" target="_blank" rel="noopener">포트폴리오</a>,{' '}<a href="https://yunsulcore.com/apt.html" target="_blank" rel="noopener">분양 홍보 영상</a>
+			</li>
+		</ul>
+		<p>
+			일하면서 매일 쓰는 도구와 작업 순서를 기준으로, AI 도구를 처음 쓰는 사람도 바로 따라 할 수 있게 정리합니다.
 		</p>
 
 		<h2>이런 글을 씁니다</h2>
