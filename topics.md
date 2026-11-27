@@ -66,3 +66,4 @@
 - [x] 시댄스 2.5 — 2.0과 달라진 점, 사용법과 가격 (ai-video) [검색어: 시댄스 2.5] → seedance-2-5-guide.md (발행일 2026-11-25)
 - [x] AI 웹툰 만들기 — 캐릭터 유지하며 컷 그리는 5단계와 무료 도구 (ai-image) [검색어: ai 웹툰 만들기] → ai-webtoon-making.md (발행일 2026-11-26)
 - [x] 수노 AI 가격 — 요금제별 크레딧과 다운로드 한도, 환불 조건 (ai-audio) [검색어: 수노 ai 가격] → suno-ai-pricing.md (발행일 2026-11-27)
+- [x] 캔바 AI 무료 — 무료 횟수와 차감 기준, 프로와 차이 (ai-automation) [검색어: 캔바 ai 무료] → canva-ai-free.md (발행일 2026-11-28)
